@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Layout de colunas com Flexbox */
+
+/*Essa tabela contém o campo de busca e a lista dos Labs e QRcodes*/
+.tabelaExterna {
+  display: flex;
+  justify-content: center;
+}
+
+/* Conteúdo */
+.tabelaConteudo {
+  flex: 90%;
+  max-width: 600px;
+  padding: 15px 0;
+  text-align: center;
+}
+
+/*versão*/
+.versao{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #bbb;
+}
+
+.titulo{
+    font-size: 42px;
+    font-family: Arial;
+    text-align: center;
+    color: rgb(32, 140, 255);
+    padding: 21px;
+}
+
+.estiloListaPredios{
+    font-size: 36px;
+    font-family: Arial;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(32, 140, 255);
+    padding: 2px;
+    padding-bottom: 0px;
+}
+
+.estiloListaLabs{
+    font-size: 21px;
+    font-family: Arial;
+    text-align: center;
+    color: black;
+    padding: 2px;
+    padding-top: 10px;
+}
+
+.estiloListaPessoas{
+    font-size: 14px;
+    font-family: Arial;
+    text-align: center;
+    color: rgb(136, 136, 136);
+    padding: 2px;
+}
+
+/* estilo da caixa de busca */
+#caixaDeBusca {
+  width: 86%;
+  font-size: 21px;
+  text-align: center;
+  color: rgb(32, 140, 255);
+  padding: 21px;
+  border: 1px solid #ddd;
+  height: 100px;
+}
+
+/* estlo do menu da lista de prédios */
+#listaDosPredios {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#listaDosPredios li a {
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  display: block
+}
+
+#listaDosPredios li a:hover {
+  background-color: #bbb;
+}
+</style>
+
+</head>
+<body>
+
+<div class = "versao" >v. 1.0 - beta, bem beta mesmo</div>
+<div class = "titulo">LABirintus</div>
+
+<div class="tabelaExterna">
+  <div class="tabelaConteudo" style="background-color:#eee; align-content: center;">
+    
+    <input type="text" id="caixaDeBusca" onkeyup="myFunction()" onfocus="this.value=''" placeholder="digite aqui onde você quer ir" aria-label="Campo de busca de prédio" title="">
+            
+    <ul id="listaDosPredios">
+      
+        <li>
+            <a href='https://www.google.com/maps/dir//-23.5566608,-46.7370344/@-23.5568294,-46.7371443,18z'>
+            <img src="10.png">
+            <div class="estiloListaPredios">Prédio 01</div>
+            
+            <div class='estiloListaLabs'>
+                Assessoria de Comunicação Corporativa – ACC</div>
+            <div class='estiloListaPessoas'>
+                Augusto Max Colin - augustomc@ipt.br | 3767-4762</div>
+            
+            <div class='estiloListaLabs'>
+                Departamento de Acervo e Informação Tecnológica – DAIT</div>
+            <div class='estiloListaPessoas'>
+                Rosângela Zanforlin de Almeida - zanfor@ipt.br | 3767-4907</div>
+            
+            <div class='estiloListaLabs'>
+                Coordenadoria de Inteligência de Mercado e Estratégia - CIME</div>
+            <div class='estiloListaPessoas'>
+                Cristina Rodrigues de Borba Vieira - cvieira@ipt.br | 3767-4402</div>
+            
+            <div class='estiloListaLabs'>
+                Departamento de Gestão da Inovação e Propriedade Intelectual</div>
+            <div class='estiloListaPessoas'>
+                Nereide de Oliveira - nereide@ipt.br | 3767-4138</div>
+            
+            <div class='estiloListaLabs'>
+                Departamento de Análise de Mercados e Parcerias - DAMP</div>
+            <div class='estiloListaPessoas'>
+                Yuri Basile Tukoff Guimarães - ytukoff@ipt.br | 3767-4118</div>
+            
+            <div class='estiloListaLabs'>
+                Coordenadoria de Relações Institucionais - CRI</div>
+            <div class='estiloListaPessoas'>
+                Alex Fedozzi Vallone - avallone@ipt.br | 3767-4254</div>
+            
+            <div class='estiloListaLabs'>
+                Área da Memória Histórica</div>
+            <div class='estiloListaPessoas'>
+                Mirian Cruxên Barros de Oliveira - miriancr@ipt.br | 3767-4167</div>
+
+            <hr></a>
+        </li>
+
+        <li>
+            <a href='https://www.google.com/maps/dir//-23.5566608,-46.7370344/@-23.5568294,-46.7371443,18z'>
+            <img src="10.png">
+            <div class="estiloListaPredios">Prédio 02</div>
+            
+            <div class="estiloListaLabs">
+                Laboratório de Processos Metalúrgicos – LPM</div>
+            <div class="estiloListaPessoas">
+                André Luiz Nunis da Silva - alnunis@ipt.br | 3767-4248</div>
+            
+            <hr></a>
+        </li>
+
+        <li>
+            <a href='https://www.google.com/maps/dir//-23.5566608,-46.7370344/@-23.5568294,-46.7371443,18z'>
+            <img src="10.png">
+            <div class="estiloListaPredios">Prédio 07</div>
+            
+            <div class="estiloListaLabs">
+                Medicina do Trabalho e Ambulatório Médico</div>
+            <div class="estiloListaPessoas">
+                Celia Maria Brandao - cbrandao@ipt.br | 3767-4205</div>
+            
+            <hr></a>
+        </li>
+        
+        <li>
+            <a href='https://www.google.com/maps/dir//-23.5566608,-46.7370344/@-23.5568294,-46.7371443,18z'>
+            <img src="10.png">
+            <div class="estiloListaPredios">Prédio 11</div>
+            
+            <div class="estiloListaLabs">
+                Departamento de Pessoal, Empregos e Benefícios - DPEB</div>
+            <div class="estiloListaPessoas">
+                Hector David Rubilar de La Vega - hector@ipt.br | 3767-4332</div>
+            
+            <div class="estiloListaLabs">
+                Departamento de Desenvolvimento Organizacional e Talentos - DOT</div>
+            <div class="estiloListaPessoas">
+                Patricia das Graças Gomes Pedroso - patricia@ipt.br | 3767-4760</div>
+            
+            <div class="estiloListaLabs">
+                Departamento de Segurança, Saúde e Meio Ambiente - DESMT</div>
+            <div class="estiloListaPessoas">
+                Luidimar Guilherme da Silva - luidimar@ipt.br | 3767-4601</div>
+            
+            <div class="estiloListaLabs">
+                Presidência – PRES</div>
+            <div class="estiloListaPessoas">
+                Liedi Légi Bariani Bernucci - liedi@ipt.br | 3767-4433</div>
+            
+            <div class="estiloListaLabs">
+                Diretoria de Operações – DO</div>
+            <div class="estiloListaPessoas">
+                Adriano Marim de Oliveira - amarim@ipt.br | 3767-4422</div>
+            
+            <div class="estiloListaLabs">
+                Diretoria Financeira e Administrativa – DFA</div>
+            <div class="estiloListaPessoas">
+                Flávia Gutierrez Motta - fgmotta@ipt.br | 3767-4477</div>
+            
+            <div class="estiloListaLabs">
+                Diretoria de Inovação e Negócios - DIN</div>
+            <div class="estiloListaPessoas">
+                Cláudia Echevenguá Teixeira - cteixeira@ipt.br | 3767-4466</div>
+            
+            <hr></a>
+        </li>
+
+        <li>
+            <a href='https://www.google.com/maps/dir//-23.5566608,-46.7370344/@-23.5568294,-46.7371443,18z'>
+            <img src="10.png">
+            <div class="estiloListaPredios">Prédio 19</div>
+            
+            <div class="estiloListaLabs">
+                Departamento de Contabilidade</div>
+            <div class="estiloListaPessoas">
+                Francisco Souto Outeda - fsouto@ipt.br | 3767-4919</div>
+            
+            <hr></a>
+        </li>
+        
+        <li>
+            <a href='https://www.google.com/maps/dir//-23.5566608,-46.7370344/@-23.5568294,-46.7371443,18z'>
+            <img src="10.png">
+            <div class="estiloListaPredios">Prédio 20</div>
+            
+            <div class="estiloListaLabs">
+                Departamento de Contabilidade</div>
+            <div class="estiloListaPessoas">
+                Francisco Souto Outeda - fsouto@ipt.br | 3767-4919</div>
+            
+            <hr></a>
+        </li>
+        
+        <li>
+            <a href='https://www.google.com/maps/dir//-23.5566608,-46.7370344/@-23.5568294,-46.7371443,18z'>
+            <img src="10.png">
+            <div class="estiloListaPredios">Prédio 31</div>
+            
+            <div class="estiloListaLabs">
+                Laboratório de Bioenergia e Eficiência Energética – LBE</div>
+            <div class="estiloListaPessoas">
+                Adriana Garcia - adrianag@ipt.br | 3767-4552</div>
+            
+            <hr></a>
+        </li>
+        
+        <li>
+            <a href='https://www.google.com/maps/dir//-23.5566608,-46.7370344/@-23.5568294,-46.7371443,18z'>
+            <img src="10.png">
+            <div class="estiloListaPredios">Prédio 36</div>
+            
+            <div class="estiloListaLabs">
+                Laboratório de Conforto Ambiental, Eficiência Energética e Instalações Prediais – LCAP</div>
+            <div class="estiloListaPessoas">
+                Marcelo de Mello Aquilino - aquilino@ipt.br | 3767-4258</div>
+            
+            <hr></a>
+        </li>
+        
+        <li>
+            <a href='https://www.google.com/maps/dir//-23.5566608,-46.7370344/@-23.5568294,-46.7371443,18z'>
+            <img src="10.png">
+            <div class="estiloListaPredios">Prédio 37</div>
+            
+            <div class="estiloListaLabs">
+                Laboratório de Vazão – LV</div>
+            <div class="estiloListaPessoas">
+                Rui Gomez Teixeira de Almeida - ruigta@ipt.br | 3767-4604</div>
+            
+            <hr></a>
+        </li>
+
+        <li>
+            <a href='https://www.google.com/maps/dir//-23.5566608,-46.7370344/@-23.5568294,-46.7371443,18z'>
+            <img src="10.png">
+            <div class="estiloListaPredios">Prédio 39</div>
+            
+            <div class="estiloListaLabs">
+                Laboratório de Metrologia Mecânica - LMM</div>
+            <div class="estiloListaPessoas">
+                Manuel Antonio Pires Castanho - manet@ipt.br | 3767-4669</div>
+            
+            <hr></a>
+        </li>
+
+        <li>
+            <a href='https://www.google.com/maps/dir//-23.5566608,-46.7370344/@-23.5568294,-46.7371443,18z'>
+            <img src="10.png">
+            <div class="estiloListaPredios">Prédio 50</div>
+            
+            <div class="estiloListaLabs">
+                Laboratório de Química em Manufaturados – LQM</div>
+            <div class="estiloListaPessoas">
+                Fernando Soares de Lima - nandosl@ipt.br | 3767-4727</div>
+            
+            <hr></a>
+        </li>
+        
+        <li>
+            <a href='https://www.google.com/maps/dir//-23.5566608,-46.7370344/@-23.5568294,-46.7371443,18z'>
+            <img src="10.png">
+            <div class="estiloListaPredios">Prédio 53</div>
+            
+            <div class="estiloListaLabs">
+                Laboratório de Corrosão e Proteção – LCP</div>
+            <div class="estiloListaPessoas">
+                Neusvaldo Lira de Almeida - neusval@ipt.br | 3767-4044</div>
+            
+            <hr></a>
+        </li>
+        
+        <li>
+            <a href='https://www.google.com/maps/dir//-23.5566608,-46.7370344/@-23.5568294,-46.7371443,18z'>
+            <img src="10.png">
+            <div class="estiloListaPredios">Prédio 54</div>
+            
+            <div class="estiloListaLabs">
+                Seção de Obras Civis - SOC</div>
+            <div class="estiloListaPessoas">
+                Diego Lapolli Bressan - bressan@ipt.br | 3767-4165</div>
+            
+            <hr></a>
+        </li>
+        
+        <li>
+            <a href='https://www.google.com/maps/dir//-23.5566608,-46.7370344/@-23.5568294,-46.7371443,18z'>
+            <img src="10.png">
+            <div class="estiloListaPredios">Prédio 55</div>
+            
+            <div class="estiloListaLabs">
+                Laboratório de Metrologia Elétrica - LME</div>
+            <div class="estiloListaPessoas">
+                Tomie Yokoji - tomiey@ipt.br | 3767-0000</div>
+            <div class="estiloListaPessoas">
+                Marcelo Ferreira Gonçalves - marcelof@ipt.br | 3767-0000</div>
+            
+            <div class="estiloListaLabs">
+                Laboratório de Usos Finais e Gestão de Energia - LGE</div>
+            <div class="estiloListaPessoas">
+                Bla Nadeira - nadeira@ipt.br | 3767-0000</div>
+            
+            <hr></a>
+        </li>
+        
+        <li>
+            <a href='https://www.google.com/maps/dir//-23.5566608,-46.7370344/@-23.5568294,-46.7371443,18z'>
+            <img src="10.png">
+            <div class="estiloListaPredios">Prédio 59</div>
+            
+            <div class="estiloListaLabs">
+                Seção de Planejamento Territorial, Recursos Hídricos, Saneamento e Florestas – SPRSF</div>
+            <div class="estiloListaPessoas">
+                Sofia Julia Alves Macedo Campos - scampos@ipt.br | 3767-4648</div>
+            
+            <hr></a>
+        </li>
+
+        <li>
+            <a href='https://www.google.com/maps/dir//-23.5566608,-46.7370344/@-23.5568294,-46.7371443,18z'>
+            <img src="10.png">
+            <div class="estiloListaPredios">Prédio 62</div>
+            
+            <div class="estiloListaLabs">
+                Laboratório de Celulose, Papel e Embalagem – LCPE</div>
+            <div class="estiloListaPessoas">
+                Patricia Kaji Yasumura Sasaki - pkaji@ipt.br | 3767-4407</div>
+            
+            <hr></a>
+        </li>
+        
+        <li>
+            <a href='https://www.google.com/maps/dir//-23.5566608,-46.7370344/@-23.5568294,-46.7371443,18z'>
+            <img src="10.png">
+            <div class="estiloListaPredios">Prédio 65</div>
+            
+            <div class="estiloListaLabs">
+                Coordenadoria de Programas - CP</div>
+            <div class="estiloListaPessoas">
+                Mari Tomita Katayama - katayama@ipt.br | 3767-4204</div>
+            
+            <hr></a>
+        </li>
+        
+        
+        
+
+    </ul>
+  </div>
+</div>
+
+<script>
+
+function myFunction() {
+  
+    var input, filter, ul, li, a, i;
+    
+    input = document.getElementById("caixaDeBusca");
+    filter = input.value.toUpperCase();
+    
+    ul = document.getElementById("listaDosPredios");
+    li = ul.getElementsByTagName("li");
+    
+    for (i = 0; i < li.length; i++) {
+        
+        a = li[i].getElementsByTagName("a")[0];
+        
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        }
+        else {
+            li[i].style.display = "none";
+        }
+    }
+}
+
+</script>
+
+</body>
+</html>
