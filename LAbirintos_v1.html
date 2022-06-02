@@ -110,7 +110,7 @@ body {
 <div class="tabelaExterna">
   <div class="tabelaConteudo" style="background-color:#eee; align-content: center;">
     
-    <input type="text" id="caixaDeBusca" onkeyup="myFunction()"  placeholder="digite aqui onde você quer ir" aria-label="Campo de busca de prédio" title="">
+    <input type="text" id="caixaDeBusca" onkeyup="filtraLista()"  placeholder="digite aqui onde você quer ir" aria-label="Campo de busca de prédio" title="">
             
     <ul id="listaDosPredios">
       
@@ -180,7 +180,8 @@ body {
             <div style="display:none">
                 Predio 02
                 Predio 2
-                laboratorio
+                Laboratorio de Processos Metalurgicos
+                Laboratorio Processos Metalurgicos
                 metalurgicos
                 andre
                 ambulatorio
@@ -558,12 +559,14 @@ body {
 
 <script>
 
-function myFunction() {
+function filtraLista() {
   
-    var input, filter, ul, li, a, i;
+    var termoBuscado, filtro, ul, li, a, i;
     
-    input = document.getElementById("caixaDeBusca");
-    filter = input.value.toUpperCase();
+    termoBuscado = document.getElementById("caixaDeBusca");
+    filtro = termoBuscado.value.toUpperCase();
+
+    console.log(filtro)
     
     ul = document.getElementById("listaDosPredios");
     li = ul.getElementsByTagName("li");
@@ -572,7 +575,7 @@ function myFunction() {
         
         a = li[i].getElementsByTagName("a")[0];
         
-        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+        if (a.innerHTML.toUpperCase().indexOf(filtro) > -1) {
             li[i].style.display = "";
         }
         else {
