@@ -20,7 +20,6 @@ body {
   justify-content: center;
 }
 
-/* Conteúdo */
 .tabelaConteudo {
   flex: 90%;
   max-width: 600px;
@@ -28,7 +27,6 @@ body {
   text-align: center;
 }
 
-/*versão*/
 .versao{
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
@@ -42,6 +40,14 @@ body {
     text-align: center;
     color: rgb(32, 140, 255);
     padding: 21px;
+}
+
+.dica{
+    font-size: 10px;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(116, 116, 116);
 }
 
 .estiloListaPredios{
@@ -74,7 +80,7 @@ body {
 /* estilo da caixa de busca */
 #caixaDeBusca {
   width: 86%;
-  font-size: 21px;
+  font-size: 16px;
   text-align: center;
   color: rgb(32, 140, 255);
   padding: 21px;
@@ -106,11 +112,14 @@ body {
 
 <div class = "versao" >v. 1.0 - beta, bem beta mesmo</div>
 <div class = "titulo">LABirintus</div>
+<div class = "dica" >Busque por prédio, laboratório, pessoa ou ramal</div>
+<div class = "dica" >Por exemplo, para achar o prédio 55, digite "p55" ou "prédio 55"</div>
+<div class = "dica" ><br></div>
 
 <div class="tabelaExterna">
   <div class="tabelaConteudo" style="background-color:#eee; align-content: center;">
     
-    <input type="text" id="caixaDeBusca" onkeyup="filtraLista()"  placeholder="digite aqui onde você quer ir" aria-label="Campo de busca de prédio" title="">
+    <input type="text" id="caixaDeBusca" onkeyup="filtraLista()"  placeholder="digite aqui o que você procura" aria-label="Campo de busca de prédio" title="">
             
     <ul id="listaDosPredios">
       
@@ -121,6 +130,8 @@ body {
 
             <!-- termos para busca ocultados -->
             <div style="display:none">
+                p1
+                p01
                 Predio 01
                 Predio 1
                 comunicacao
@@ -178,6 +189,8 @@ body {
             
             <!-- termos para busca ocultados -->
             <div style="display:none">
+                p2
+                p02
                 Predio 02
                 Predio 2
                 Laboratorio de Processos Metalurgicos
@@ -217,6 +230,7 @@ body {
 
             <!-- termos para busca ocultados -->
             <div style="display:none">
+                p11
                 Predio 11
                 beneficios
                 saude
@@ -272,6 +286,7 @@ body {
             
             <!-- termos para busca ocultados -->
             <div style="display:none">
+                p19
                 Predio 19
             </div> 
             <!-- termos para busca ocultados -->
@@ -292,6 +307,7 @@ body {
             
             <!-- termos para busca ocultados -->
             <div style="display:none">
+                p20
                 Predio 20
             </div> 
             <!-- termos para busca ocultados -->
@@ -312,10 +328,10 @@ body {
             
             <!-- termos para busca ocultados -->
             <div style="display:none">
+                p31
                 Predio 31
-                laboratorio
-                eficiencia
-                energetica
+                Laboratorio de Bioenergia e Eficiencia Energetica
+                Laboratorio Bioenergia Eficiencia Energetica
             </div> 
             <!-- termos para busca ocultados -->
 
@@ -334,11 +350,10 @@ body {
             
             <!-- termos para busca ocultados -->
             <div style="display:none">
+                p36
                 Predio 36
-                laboratorio
-                eficiencia
-                energetica
-                instalacoes
+                Laboratorio de Conforto Ambiental Eficiencia Energetica e Instalacoes Prediais
+                Laboratorio Conforto Ambiental Eficiencia Energetica Instalacoes Prediais
             </div> 
             <!-- termos para busca ocultados -->
 
@@ -358,9 +373,10 @@ body {
             
             <!-- termos para busca ocultados -->
             <div style="display:none">
+                p37
                 Predio 37
-                laboratorio
-                vazao
+                Laboratorio de Vazao
+                Laboratorio Vazao
             </div> 
             <!-- termos para busca ocultados -->
 
@@ -380,9 +396,10 @@ body {
             
             <!-- termos para busca ocultados -->
             <div style="display:none">
+                p39
                 Predio 39
-                laboratorio
-                mecanica
+                Laboratorio de Metrologia Mecanica
+                Laboratorio Metrologia Mecanica
             </div> 
             <!-- termos para busca ocultados -->
 
@@ -402,9 +419,10 @@ body {
             
             <!-- termos para busca ocultados -->
             <div style="display:none">
+                p50
                 Predio 50
-                laboratorio
-                quimica
+                Laboratorio de Quimica em Manufaturados
+                Laboratorio Quimica Manufaturados
             </div> 
             <!-- termos para busca ocultados -->
 
@@ -424,10 +442,10 @@ body {
             
             <!-- termos para busca ocultados -->
             <div style="display:none">
+                p53
                 Predio 53
-                laboratorio
-                corrosao
-                protecao
+                Laboratorio de Corrosao e Protecao
+                Laboratorio Corrosao Protecao
             </div> 
             <!-- termos para busca ocultados -->
 
@@ -446,8 +464,10 @@ body {
             
             <!-- termos para busca ocultados -->
             <div style="display:none">
+                p54
                 Predio 54
-                secao
+                Secao de Obras Civis
+                Secao Obras Civis
             </div> 
             <!-- termos para busca ocultados -->
 
@@ -466,10 +486,13 @@ body {
             
             <!-- termos para busca ocultados -->
             <div style="display:none">
+                p55
                 Predio 55
                 Eletrica
-                gestao
-                laboratorio
+                Laboratorio de Metrologia Eletrica
+                Laboratorio Metrologia Eletrica
+                Laboratorio de Usos Finais e Gestao de Energia
+                Laboratorio Usos Finais Gestao de Energia
             </div> 
             <!-- termos para busca ocultados -->
 
@@ -495,9 +518,10 @@ body {
 
             <!-- termos para busca ocultados -->
             <div style="display:none">
+                p59
                 Predio 59
-                secao
-                hidricos
+                Secao de Planejamento Territorial Recursos Hidricos Saneamento e Florestas
+                Secao Planejamento Territorial Recursos Hidricos Saneamento Florestas
             </div> 
             <!-- termos para busca ocultados -->
 
@@ -517,8 +541,10 @@ body {
 
              <!-- termos para busca ocultados -->
              <div style="display:none">
+                p62
                 Predio 62
-                laboratorio
+                Laboratorio de Celulose Papel e Embalagem LCPE
+                Laboratorio Celulose Papel Embalagem
             </div> 
             <!-- termos para busca ocultados -->
             
@@ -537,10 +563,13 @@ body {
             
             <!-- termos para busca ocultados -->
             <div style="display:none">
+                p65
                 Predio 65
-            </div> 
+                Coordenadoria de Programas - CP
+                Coordenadoria de Programas CP
+                Mari Tomita Katayama - katayama@ipt.br
+            </div>
             <!-- termos para busca ocultados -->
-
 
             <div class="estiloListaLabs">
                 Coordenadoria de Programas - CP</div>
@@ -549,8 +578,6 @@ body {
             
             <hr></a>
         </li>
-        
-        
         
 
     </ul>
@@ -561,21 +588,23 @@ body {
 
 function filtraLista() {
   
-    var termoBuscado, filtro, ul, li, a, i;
+    var termoBuscado, filtro, ul, li, a;
     
     termoBuscado = document.getElementById("caixaDeBusca");
-    filtro = termoBuscado.value.toUpperCase();
+    filtro = termoBuscado.value.toLowerCase();
 
     console.log(filtro)
     
-    ul = document.getElementById("listaDosPredios");
-    li = ul.getElementsByTagName("li");
+    ul = document.getElementById("listaDosPredios"); // a lista completa
+    li = ul.getElementsByTagName("li"); // um elemento da lista
     
-    for (i = 0; i < li.length; i++) {
+    for (var i = 0; i < li.length; i++) {
         
-        a = li[i].getElementsByTagName("a")[0];
+        a = li[i].getElementsByTagName("a")[0]; //cada letra do elemento da lista
+        console.log(li[i].getElementsByTagName("a")[0])
+        console.log(a.innerHTML.toLowerCase().indexOf(filtro))
         
-        if (a.innerHTML.toUpperCase().indexOf(filtro) > -1) {
+        if (a.innerHTML.toLowerCase().indexOf(filtro) > -1) {
             li[i].style.display = "";
         }
         else {
