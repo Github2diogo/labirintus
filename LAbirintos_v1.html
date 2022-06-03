@@ -179,7 +179,7 @@ body {
             <div class='estiloListaPessoas'>
                 Mirian Cruxên Barros de Oliveira - miriancr@ipt.br | 3767-4167</div>
 
-            <hr></a>
+            </a><hr>
         </li>
 
         <li style="display:none">
@@ -207,7 +207,7 @@ body {
             <div class="estiloListaPessoas">
                 André Luiz Nunis da Silva - alnunis@ipt.br | 3767-4248</div>
             
-            <hr></a>
+            </a><hr>
         </li>
 
         <li style="display:none">
@@ -220,7 +220,7 @@ body {
             <div class="estiloListaPessoas">
                 Celia Maria Brandao - cbrandao@ipt.br | 3767-4205</div>
             
-            <hr></a>
+            </a><hr>
         </li>
         
         <li style="display:none">
@@ -276,7 +276,7 @@ body {
             <div class="estiloListaPessoas">
                 Cláudia Echevenguá Teixeira - cteixeira@ipt.br | 3767-4466</div>
             
-            <hr></a>
+            </a><hr>
         </li>
 
         <li style="display:none">
@@ -297,7 +297,7 @@ body {
             <div class="estiloListaPessoas">
                 Francisco Souto Outeda - fsouto@ipt.br | 3767-4919</div>
             
-            <hr></a>
+            </a><hr>
         </li>
         
         <li style="display:none">
@@ -318,7 +318,7 @@ body {
             <div class="estiloListaPessoas">
                 Francisco Souto Outeda - fsouto@ipt.br | 3767-4919</div>
             
-            <hr></a>
+            </a><hr>
         </li>
         
         <li style="display:none">
@@ -340,7 +340,7 @@ body {
             <div class="estiloListaPessoas">
                 Adriana Garcia - adrianag@ipt.br | 3767-4552</div>
             
-            <hr></a>
+            </a><hr>
         </li>
         
         <li style="display:none">
@@ -363,7 +363,7 @@ body {
             <div class="estiloListaPessoas">
                 Marcelo de Mello Aquilino - aquilino@ipt.br | 3767-4258</div>
             
-            <hr></a>
+            </a><hr>
         </li>
         
         <li style="display:none">
@@ -386,7 +386,7 @@ body {
             <div class="estiloListaPessoas">
                 Rui Gomez Teixeira de Almeida - ruigta@ipt.br | 3767-4604</div>
             
-            <hr></a>
+            </a><hr>
         </li>
 
         <li style="display:none">
@@ -409,7 +409,7 @@ body {
             <div class="estiloListaPessoas">
                 Manuel Antonio Pires Castanho - manet@ipt.br | 3767-4669</div>
             
-            <hr></a>
+            </a><hr>
         </li>
 
         <li style="display:none">
@@ -432,7 +432,7 @@ body {
             <div class="estiloListaPessoas">
                 Fernando Soares de Lima - nandosl@ipt.br | 3767-4727</div>
             
-            <hr></a>
+            </a><hr>
         </li>
         
         <li style="display:none">
@@ -454,7 +454,7 @@ body {
             <div class="estiloListaPessoas">
                 Neusvaldo Lira de Almeida - neusval@ipt.br | 3767-4044</div>
             
-            <hr></a>
+            </a><hr>
         </li>
         
         <li style="display:none">
@@ -476,7 +476,7 @@ body {
             <div class="estiloListaPessoas">
                 Diego Lapolli Bressan - bressan@ipt.br | 3767-4165</div>
             
-            <hr></a>
+            </a><hr>
         </li>
         
         <li style="display:none">
@@ -508,7 +508,7 @@ body {
             <div class="estiloListaPessoas">
                 Antônio Francisco Gentil Ferreira Júnior - agentil@ipt.br | 3767-4523</div>
             
-            <hr></a>
+            </a><hr>
         </li>
         
         <li style="display:none">
@@ -531,7 +531,7 @@ body {
             <div class="estiloListaPessoas">
                 Sofia Julia Alves Macedo Campos - scampos@ipt.br | 3767-4648</div>
             
-            <hr></a>
+            </a><hr>
         </li>
 
         <li style="display:none">
@@ -553,7 +553,7 @@ body {
             <div class="estiloListaPessoas">
                 Patricia Kaji Yasumura Sasaki - pkaji@ipt.br | 3767-4407</div>
             
-            <hr></a>
+            </a><hr>
         </li>
         
         <li style="display:none">
@@ -576,7 +576,7 @@ body {
             <div class="estiloListaPessoas">
                 Mari Tomita Katayama - katayama@ipt.br | 3767-4204</div>
             
-            <hr></a>
+            </a><hr>
         </li>
         
 
@@ -593,16 +593,16 @@ function filtraLista() {
     termoBuscado = document.getElementById("caixaDeBusca");
     filtro = termoBuscado.value.toLowerCase();
 
-    console.log(filtro)
+    // console.log(filtro)
     
     ul = document.getElementById("listaDosPredios"); // a lista completa
     li = ul.getElementsByTagName("li"); // um elemento da lista
     
     for (var i = 0; i < li.length; i++) {
         
-        a = li[i].getElementsByTagName("a")[0]; //cada letra do elemento da lista
-        console.log(li[i].getElementsByTagName("a")[0])
-        console.log(a.innerHTML.toLowerCase().indexOf(filtro))
+        a = li[i].getElementsByTagName("a")[0]; //cada letra do elemento da lista contido na tag a
+        // console.log(li[i].getElementsByTagName("a")[0])
+        // console.log(a.innerHTML.toLowerCase().indexOf(filtro))
         
         if (a.innerHTML.toLowerCase().indexOf(filtro) > -1) {
             li[i].style.display = "";
