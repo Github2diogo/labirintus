@@ -120,47 +120,67 @@ body {
 
 <script>
 
+    function limpaAcentos(umaString){
+
+        umaString = umaString.replace('â', 'a');
+        umaString = umaString.replace('á', 'a');
+        umaString = umaString.replace('é', 'e');
+        umaString = umaString.replace('ê', 'e');
+        umaString = umaString.replace('í', 'i');
+        umaString = umaString.replace('ó', 'o');
+        umaString = umaString.replace('ô', 'o');
+        
+        umaString = umaString.replace('ç', 'c');
+
+        umaString = umaString.replace(' da ', ' ');
+        umaString = umaString.replace(' de ', ' ');
+        umaString = umaString.replace(' do ', ' ');
+
+        return umaString
+    }
+
     function filtraLista() {
       
-        var termoBuscado, filtro, ul, li, a;
+        var buscaDigitada, busca, ul, li, a;
         
-        termoBuscado = document.getElementById("caixaDeBusca");
-        filtro = termoBuscado.value.toLowerCase();
+        buscaDigitada = document.getElementById("caixaDeBusca");
+        busca = buscaDigitada.value.toLowerCase();
         
-        if (filtro == 'lme'){ filtro = "laboratório de metrologia elétrica";}
-        if (filtro == 'lmm'){ filtro = "laboratório de metrologia mecânica";}
+        if (busca == 'lme'){ busca = "laboratório de metrologia elétrica";}
+        if (busca == 'lmm'){ busca = "laboratório de metrologia mecânica";}
         
-        if (filtro.search('lab ') > -1){filtro = filtro.replace('lab ', 'laboratorio ');}
-        if (filtro.search('p ') > -1){filtro = filtro.replace('p ', 'prédio ');}
-        
-        console.log(filtro)
+        busca = busca.replace('lab ', 'laboratorio ');
+        busca = busca.replace('p ', 'prédio ');
 
-        if (filtro.length > 1){
+        busca = limpaAcentos(busca);
+
+        console.log(busca)
+
+        if (busca.length > 1){
             
             ul = document.getElementById("listaDosPredios"); // a lista completa
             li = ul.getElementsByTagName("li"); // um elemento da lista
             
             for (var i = 0; i < li.length; i++) {
                 
-                a = li[i].getElementsByTagName("a")[0]; //cada letra do elemento da lista contido na tag a
-                // console.log(li[i].getElementsByTagName("a")[0])
-                // console.log(a.innerHTML.toLowerCase().indexOf(filtro))
+                a = li[i].getElementsByTagName("a")[0]; //cada um dos elementos com a tag 'a' começando pelo primeiro
+                b = a.innerHTML.toLowerCase();
+                b = limpaAcentos(b);
                 
-                if (a.innerHTML.toLowerCase().indexOf(filtro) > -1) {
+                if (b.search(busca) > -1) {
                     li[i].style.display = "";
                 }
                 else {
                     li[i].style.display = "none";
                 }
             }
+        
         } else {
+            
             ul = document.getElementById("listaDosPredios"); // a lista completa
             li = ul.getElementsByTagName("li"); // um elemento da lista
             
-            for (var i = 0; i < li.length; i++) {
-                
-                a = li[i].getElementsByTagName("a")[0]; //cada letra do elemento da lista contido na tag a
-                
+            for (var i = 0; i < li.length; i++) {    
                 li[i].style.display = "none";
             }
         }
@@ -214,13 +234,6 @@ body {
                 p 01
                 Predio 01
                 Predio 1
-                comunicacao
-                informacao
-                tecnologica
-                estrategia
-                analise
-                relacoes
-                memoria
             </div> 
             <!-- termos para busca ocultados -->
             
@@ -523,7 +536,7 @@ body {
         </li>
         
         <li style="display:none">
-            <a href='https://www.google.com.br/maps/dir/IPT+-+Instituto+de+Pesquisas+Tecnol%C3%B3gicas,+Av.+Prof.+Almeida+Prado,+532+-+Butant%C3%A3,+S%C3%A3o+Paulo+-+SP,+05508-901/-23.5583535,-46.7386303/@-23.5586898,-46.7392567,1667m/data=!3m2!1e3!4b1!4m9!4m8!1m5!1m1!1s0x94ce56111f23979f:0x4efc1ff99667559c!2m2!1d-46.7347373!2d-23.5568084!1m0!3e0'>
+            <a href='https://www.google.com.br/maps/dir/IPT+-+Instituto+de+Pesquisas+Tecnol%C3%B3gicas,+Av.+Prof.+Almeida+Prado,+532+-+Butant%C3%A3,+S%C3%A3o+Paulo+-+SP,+05508-901/-23.5577307,-46.7386831/@-23.5569177,-46.7388824,833m/data=!3m2!1e3!4b1!4m9!4m8!1m5!1m1!1s0x94ce56111f23979f:0x4efc1ff99667559c!2m2!1d-46.7347373!2d-23.5568084!1m0!3e0'>
             <img src="p54.png">
             <div class="estiloListaPredios">Prédio 54</div>
             
@@ -668,7 +681,7 @@ body {
                 Predio 65
                 Coordenadoria de Programas - CP
                 Coordenadoria de Programas CP
-                Mari Tomita Katayama - katayama@ipt.br
+                mecânica
             </div>
             <!-- termos para busca ocultados -->
 
