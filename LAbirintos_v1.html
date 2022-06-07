@@ -134,6 +134,7 @@ body {
 
         umaString = umaString.replace(' da ', ' ');
         umaString = umaString.replace(' de ', ' ');
+        umaString = umaString.replace(' e ', ' ');
         umaString = umaString.replace(' do ', ' ');
 
         return umaString
@@ -141,7 +142,7 @@ body {
 
     function filtraLista() {
       
-        var buscaDigitada, busca, ul, li, a;
+        var buscaDigitada, busca, ul, li, a, n;
         
         buscaDigitada = document.getElementById("caixaDeBusca");
         busca = buscaDigitada.value.toLowerCase();
@@ -149,8 +150,15 @@ body {
         if (busca == 'lme'){ busca = "laboratório de metrologia elétrica";}
         if (busca == 'lmm'){ busca = "laboratório de metrologia mecânica";}
         
+        if(busca[0] == 'p' && isNaN(busca[1]) == false && busca[1] != 0 && isNaN(busca[2]) == true ){
+            n = busca[1]
+            busca = busca.replace(n, '0'+n);
+            busca = busca.replace('p', 'p ');
+        }
+
         busca = busca.replace('lab ', 'laboratorio ');
         busca = busca.replace('p ', 'prédio ');
+
 
         busca = limpaAcentos(busca);
 
@@ -191,7 +199,7 @@ body {
 </head>
 <body>
 
-<div class = "versao" >v. 1.1</div>
+<div class = "versao" >v. 1.2</div>
 <div class = "titulo">LABirintus</div>
 <!-- <div class = "dica" ><br></div> -->
 
@@ -228,12 +236,6 @@ body {
 
             <!-- termos para busca ocultados -->
             <div style="display:none">
-                p1
-                p01
-                p 1
-                p 01
-                Predio 01
-                Predio 1
             </div> 
             <!-- termos para busca ocultados -->
             
@@ -257,15 +259,6 @@ body {
             
             <!-- termos para busca ocultados -->
             <div style="display:none">
-                p2
-                p02
-                Predio 02
-                Predio 2
-                Laboratorio de Processos Metalurgicos
-                Laboratorio Processos Metalurgicos
-                metalurgicos
-                andre
-                ambulatorio
             </div> 
             <!-- termos para busca ocultados -->
 
@@ -295,15 +288,6 @@ body {
 
             <!-- termos para busca ocultados -->
             <div style="display:none">
-                p11
-                p 11
-                Predio 11
-                beneficios
-                saude
-                presidencia
-                operacoes
-                inovacao
-                negocios
             </div> 
             <!-- termos para busca ocultados -->
            
@@ -328,9 +312,6 @@ body {
             
             <!-- termos para busca ocultados -->
             <div style="display:none">
-                p12
-                p 12
-                Predio 12
             </div> 
             <!-- termos para busca ocultados -->
 
@@ -350,9 +331,6 @@ body {
             
             <!-- termos para busca ocultados -->
             <div style="display:none">
-                p15
-                p 15
-                Predio 15
             </div> 
             <!-- termos para busca ocultados -->
 
@@ -368,9 +346,6 @@ body {
             
             <!-- termos para busca ocultados -->
             <div style="display:none">
-                p19
-                p 19
-                Predio 19
             </div> 
             <!-- termos para busca ocultados -->
 
@@ -390,9 +365,6 @@ body {
             
             <!-- termos para busca ocultados -->
             <div style="display:none">
-                p20
-                p 20
-                Predio 20
             </div> 
             <!-- termos para busca ocultados -->
 
@@ -409,11 +381,6 @@ body {
             
             <!-- termos para busca ocultados -->
             <div style="display:none">
-                p31
-                p 31
-                Predio 31
-                Laboratorio de Bioenergia e Eficiencia Energetica
-                Laboratorio Bioenergia Eficiencia Energetica
             </div> 
             <!-- termos para busca ocultados -->
 
@@ -430,11 +397,6 @@ body {
             
             <!-- termos para busca ocultados -->
             <div style="display:none">
-                p36
-                p 36
-                Predio 36
-                Laboratorio de Conforto Ambiental Eficiencia Energetica e Instalacoes Prediais
-                Laboratorio Conforto Ambiental Eficiencia Energetica Instalacoes Prediais
             </div> 
             <!-- termos para busca ocultados -->
 
@@ -452,11 +414,6 @@ body {
             
             <!-- termos para busca ocultados -->
             <div style="display:none">
-                p37
-                p 37
-                Predio 37
-                Laboratorio de Vazao
-                Laboratorio Vazao
             </div> 
             <!-- termos para busca ocultados -->
 
@@ -472,11 +429,6 @@ body {
             
             <!-- termos para busca ocultados -->
             <div style="display:none">
-                p39
-                p 39
-                Predio 39
-                Laboratorio de Metrologia Mecanica
-                Laboratorio Metrologia Mecanica
             </div> 
             <!-- termos para busca ocultados -->
 
@@ -497,11 +449,6 @@ body {
             
             <!-- termos para busca ocultados -->
             <div style="display:none">
-                p50
-                p 50
-                Predio 50
-                Laboratorio de Quimica em Manufaturados
-                Laboratorio Quimica Manufaturados
             </div> 
             <!-- termos para busca ocultados -->
 
@@ -521,11 +468,6 @@ body {
             
             <!-- termos para busca ocultados -->
             <div style="display:none">
-                p53
-                p 53
-                Predio 53
-                Laboratorio de Corrosao e Protecao
-                Laboratorio Corrosao Protecao
             </div> 
             <!-- termos para busca ocultados -->
 
@@ -542,11 +484,6 @@ body {
             
             <!-- termos para busca ocultados -->
             <div style="display:none">
-                p54
-                p 54
-                Predio 54
-                Secao de Obras Civis
-                Secao Obras Civis
             </div> 
             <!-- termos para busca ocultados -->
 
@@ -562,12 +499,6 @@ body {
            
             <!-- termos para busca ocultados -->
             <div style="display:none">
-                p55
-                p 55
-                Predio 55
-                Eletrica
-                Laboratorio de Metrologia Eletrica
-                Laboratorio Metrologia Eletrica
             </div> 
             <!-- termos para busca ocultados -->
 
@@ -583,14 +514,6 @@ body {
             
             <!-- termos para busca ocultados -->
             <div style="display:none">
-                p55
-                p 55
-                Predio 55
-                Eletrica
-                Laboratorio de Metrologia Eletrica
-                Laboratorio Metrologia Eletrica
-                Laboratorio de Usos Finais e Gestao de Energia
-                Laboratorio Usos Finais Gestao de Energia
             </div> 
             <!-- termos para busca ocultados -->
 
@@ -607,12 +530,6 @@ body {
             
             <!-- termos para busca ocultados -->
             <div style="display:none">
-                p56
-                p 56
-                Predio 56
-                Secao de Internet das Coisas e Sistemas Embarcados SICE
-                Secao Internet Coisas Sistemas Embarcados SICE
-                Avanco
             </div> 
             <!-- termos para busca ocultados -->
 
@@ -631,11 +548,6 @@ body {
 
             <!-- termos para busca ocultados -->
             <div style="display:none">
-                p59
-                p 59
-                Predio 59
-                Secao de Planejamento Territorial Recursos Hidricos Saneamento e Florestas
-                Secao Planejamento Territorial Recursos Hidricos Saneamento Florestas
             </div> 
             <!-- termos para busca ocultados -->
 
@@ -653,11 +565,7 @@ body {
 
              <!-- termos para busca ocultados -->
              <div style="display:none">
-                p62
-                p 62
-                Predio 62
-                Laboratorio de Celulose Papel e Embalagem LCPE
-                Laboratorio Celulose Papel Embalagem
+                
             </div> 
             <!-- termos para busca ocultados -->
             
