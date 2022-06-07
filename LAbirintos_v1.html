@@ -118,6 +118,56 @@ body {
 }
 </style>
 
+<script>
+
+    function filtraLista() {
+      
+        var termoBuscado, filtro, ul, li, a;
+        
+        termoBuscado = document.getElementById("caixaDeBusca");
+        filtro = termoBuscado.value.toLowerCase();
+        
+        if (filtro == 'lme'){ filtro = "laboratório de metrologia elétrica";}
+        if (filtro == 'lmm'){ filtro = "laboratório de metrologia mecânica";}
+        
+        if (filtro.search('lab ') > -1){filtro = filtro.replace('lab ', 'laboratório ');}
+        if (filtro.search('p ') > -1){filtro = filtro.replace('p ', 'prédio ');}
+        
+        console.log(filtro)
+
+        if (filtro.length > 1){
+            
+            ul = document.getElementById("listaDosPredios"); // a lista completa
+            li = ul.getElementsByTagName("li"); // um elemento da lista
+            
+            for (var i = 0; i < li.length; i++) {
+                
+                a = li[i].getElementsByTagName("a")[0]; //cada letra do elemento da lista contido na tag a
+                // console.log(li[i].getElementsByTagName("a")[0])
+                // console.log(a.innerHTML.toLowerCase().indexOf(filtro))
+                
+                if (a.innerHTML.toLowerCase().indexOf(filtro) > -1) {
+                    li[i].style.display = "";
+                }
+                else {
+                    li[i].style.display = "none";
+                }
+            }
+        } else {
+            ul = document.getElementById("listaDosPredios"); // a lista completa
+            li = ul.getElementsByTagName("li"); // um elemento da lista
+            
+            for (var i = 0; i < li.length; i++) {
+                
+                a = li[i].getElementsByTagName("a")[0]; //cada letra do elemento da lista contido na tag a
+                
+                li[i].style.display = "none";
+            }
+        }
+    }
+    
+    </script>
+
 </head>
 <body>
 
@@ -196,8 +246,6 @@ body {
             <div style="display:none">
                 p2
                 p02
-                p 2
-                p 02
                 Predio 02
                 Predio 2
                 Laboratorio de Processos Metalurgicos
@@ -637,51 +685,7 @@ body {
   </div>
 </div>
 
-<script>
 
-function filtraLista() {
-  
-    var termoBuscado, filtro, ul, li, a;
-    
-    termoBuscado = document.getElementById("caixaDeBusca");
-    filtro = termoBuscado.value.toLowerCase();
-    
-    console.log(filtro)
-    if (filtro == 'lme'){ filtro = "laboratório de metrologia elétrica";}
-    if (filtro == 'lmm'){ filtro = "laboratório de metrologia mecânica";}
-    
-    if (filtro.length > 1){
-        
-        ul = document.getElementById("listaDosPredios"); // a lista completa
-        li = ul.getElementsByTagName("li"); // um elemento da lista
-        
-        for (var i = 0; i < li.length; i++) {
-            
-            a = li[i].getElementsByTagName("a")[0]; //cada letra do elemento da lista contido na tag a
-            // console.log(li[i].getElementsByTagName("a")[0])
-            // console.log(a.innerHTML.toLowerCase().indexOf(filtro))
-            
-            if (a.innerHTML.toLowerCase().indexOf(filtro) > -1) {
-                li[i].style.display = "";
-            }
-            else {
-                li[i].style.display = "none";
-            }
-        }
-    } else {
-        ul = document.getElementById("listaDosPredios"); // a lista completa
-        li = ul.getElementsByTagName("li"); // um elemento da lista
-        
-        for (var i = 0; i < li.length; i++) {
-            
-            a = li[i].getElementsByTagName("a")[0]; //cada letra do elemento da lista contido na tag a
-            
-            li[i].style.display = "none";
-        }
-    }
-}
-
-</script>
 
 </body>
 </html>
