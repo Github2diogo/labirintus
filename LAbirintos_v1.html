@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>LABirintus - IPT</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1" title="LABirintus">
 
 <style>
 body {
@@ -43,7 +43,7 @@ body {
     padding: 21px;
 }
 
-.dica{
+.estiloDica{
     font-size: 10px;
     font-family: Arial;
     font-weight: bold;
@@ -151,11 +151,22 @@ body {
         if (busca == 'lme'){ busca = "laboratório de metrologia elétrica";}
         if (busca == 'lmm'){ busca = "laboratório de metrologia mecânica";}
         
+        // dicas
+        dicas(busca);
+    
+        // pros casos de p junto com o número
         if(busca[0] == 'p' && isNaN(busca[1]) == false && busca[1] != 0 && isNaN(busca[2]) == true ){
             n = busca[1]
             busca = busca.replace(n, '0'+n);
             busca = busca.replace('p', 'p ');
         }
+        
+        // pros casos de p separado do número e com prédios menores que 10
+        if(busca[0] == 'p' && busca[1] == ' ' && busca.length == 3){
+            n = busca[2]
+            busca = busca.replace(n, '0'+n);
+        }
+
 
         busca = busca.replace('lab ', 'laboratorio ');
         busca = busca.replace('p ', 'prédio ');
@@ -163,7 +174,7 @@ body {
 
         busca = limpaAcentos(busca);
 
-        console.log(busca)
+        console.log(busca);
 
         if (busca.length > 1){
             
@@ -194,13 +205,29 @@ body {
             }
         }
     }
+
+    function dicas(busca){
+        
+        var elem = document.getElementById('caixaDeDicas');
+        
+        elem.innerHTML = 'Dica: você pode buscar apenas pelas siglas do laboratório'
+        
+        if(busca[0] == 'p'){
+            elem.innerHTML = 'Dica: para achar um prédio digite apenas "p" e o número do prédio'
+        }
+        
+        if(busca.search('lab') > -1){
+            elem.innerHTML = 'Dica: você pode escrever apenas "lab" para achar um laboratório'
+        }
+        
+    }
     
     </script>
 
 </head>
 <body>
 
-<div class = "versao" >v. 1.2</div>
+<div class = "versao" >v. 1.3</div>
 <div class = "titulo">LABirintus</div>
 <!-- <div class = "dica" ><br></div> -->
 
@@ -217,7 +244,8 @@ body {
         placeholder = 'digite aqui o prédio / laboratório / pessoa / ramal'
         />
         
-        <div class = "dica" >Dica: para achar um prédio digite apenas "p" e o número do prédio</div>
+        
+        <div div class = "estiloDica" id = "caixaDeDicas"> - </div>
         <hr>
 
     <!-- <datalist id="maisComuns">
