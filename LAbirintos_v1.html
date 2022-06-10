@@ -44,14 +44,24 @@ body {
 }
 
 .estiloDica{
-    font-size: 14px;
+    font-size: 12px;
     font-family: Arial;
     font-weight: bold;
     text-align: center;
     color: rgb(116, 116, 116);
     padding-top: 10px;
     padding-bottom: 10px;
+    animation: animate 1.5s linear infinite;
 }
+
+@keyframes animate{
+   100%{
+     opacity: 1;
+   }
+   50%{
+     opacity: 0.5;
+   }
+ }
 
 .estiloListaPredios{
     font-size: 36px;
@@ -168,6 +178,7 @@ body {
             busca = busca.replace(n, '0'+n);
         }
 
+        // pros casos prédio maior que 10 e p separado
         if(busca.length == 3 && busca[0] == 'p' && isNaN(busca[1]) == false && isNaN(busca[2]) == false){
             busca = busca.replace('p', 'p ');
         }
