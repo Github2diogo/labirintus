@@ -41,6 +41,16 @@ body {
     text-align: center;
     color: rgb(32, 140, 255);
     padding: 21px;
+    animation: animaTitulo 4.2s linear infinite;
+}
+
+@keyframes animaTitulo{
+   100%{
+     opacity: 1;
+   }
+   50%{
+     opacity: 0.6;
+   }
 }
 
 .estiloDica{
@@ -51,17 +61,19 @@ body {
     color: rgb(116, 116, 116);
     padding-top: 16px;
     padding-bottom: 10px;
-    animation: animate 4.2s linear infinite;
+    padding-left: 10px;
+    padding-right: 10px;
+    animation: animaDica 4.2s linear infinite;
 }
 
-@keyframes animate{
+@keyframes animaDica{
    100%{
      opacity: 1;
    }
    50%{
      opacity: 0.4;
    }
- }
+}
 
 .estiloListaPredios{
     font-size: 36px;
