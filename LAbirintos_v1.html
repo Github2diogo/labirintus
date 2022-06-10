@@ -49,7 +49,7 @@ body {
     font-weight: bold;
     text-align: center;
     color: rgb(116, 116, 116);
-    padding-top: 12px;
+    padding-top: 16px;
     padding-bottom: 10px;
     animation: animate 4.2s linear infinite;
 }
@@ -59,7 +59,7 @@ body {
      opacity: 1;
    }
    50%{
-     opacity: 0.5;
+     opacity: 0.4;
    }
  }
 
@@ -228,18 +228,21 @@ body {
         
         var elem = document.getElementById('caixaDeDicas');
         
-        console.log(busca.length);
-
         if(busca[0] == 'p'){
             elem.innerHTML = 'Dica: para achar um prédio você pode digitar apenas "p" e o número do prédio'
         } else { 
             if(busca.search('lab') > -1 && busca.length <= 12){
                 elem.innerHTML = 'Dica: você pode escrever apenas "lab" para achar um laboratório'
             } else {
-                if(isNaN(busca) == false){
+                if(isNaN(busca) == false && busca.length > 1){
                     elem.innerHTML = 'Dica: se estiver buscando um prédio e não um ramal, tente usar "p" antes do número'
                 } else { 
-                    elem.innerHTML = 'Dica: você pode buscar pela sigla do laboratório'}
+                    if(!busca == true){
+                        elem.innerHTML = '[[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]]'
+                    } else {
+                        elem.innerHTML = 'Dica: você pode buscar pela sigla do laboratório / seção / departamento'
+                    }
+                }
             }
         }
     }
@@ -265,7 +268,7 @@ body {
         placeholder = 'digite aqui o prédio / laboratório / pessoa / ramal'
         />
         
-        <div div class = "estiloDica" id = "caixaDeDicas"><br></div>
+        <div div class = "estiloDica" id = "caixaDeDicas">[[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]]</div>
         <hr>
         
     <ul id="listaDosPredios">
