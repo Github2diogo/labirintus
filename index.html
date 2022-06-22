@@ -53,6 +53,19 @@ body {
    }
 }
 
+.ajustaLinha{
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(116, 116, 116);
+    padding-top: 0px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* animation: animaDica 4.2s linear infinite; */
+}
+
 .estiloDica{
     font-size: 12px;
     font-family: Arial;
@@ -112,8 +125,28 @@ body {
     padding-top: 2px;
 }
 
-#caixaDeBusca {
+#botaoBusca {
   width: 86%;
+  /* font-size: calc(.5em + 1vw); */
+  /* text-align: center; */
+  color: rgb(32, 140, 255);
+  /* padding: 21px; */
+  border: 0px solid #ddd;
+  height: 0px;
+
+  /* float: left; */
+  /* width: 20%; */
+  /* padding: 0px; */
+  /* background: #2196F3; */
+  /* color: white; */
+  /* font-size: 17px; */
+  /* border: 1px solid grey; */
+  /* border-left: none; Prevent double borders */
+  /* cursor: pointer; */
+}
+
+#caixaDeBusca {
+  width: 100%;
   font-size: calc(.5em + 1vw);
   text-align: center;
   color: rgb(32, 140, 255);
@@ -279,25 +312,37 @@ body {
 </head>
 <body>
 
-<div class = "versao" >v. 2.0 - teste android antigo</div>
+<div class = "versao" >v. 2.0 - android antigo, 2a tentativa</div>
 <div class = "titulo">LABirintus</div>
 
 <div class="tabelaExterna">
     <div class="tabelaConteudo" style="background-color:#eee; align-content: center;">
         
+    <form onsubmit="return false">
+        <button
+        id = "botaoBusca"
+        onclick = "filtraLista()"
+        />
+
         <input
         type = "text"
         id = "caixaDeBusca" 
-        onkeyup = "filtraLista()"
-        onchange = "filtraLista()"
         aria-label = "Campo de busca" title=""
         autocomplete = "off"
         autofocus = true
         placeholder = 'digite o prédio / laboratório / pessoa / ramal'
         />
+
+        <!-- onkeyup= "filtraLista()"
+        onchange = "filtraLista()" -->
+
+
+    </form>
         
-        <div div class = "estiloDica" id = "caixaDeDicas">[[][][][][][][]]</div>
-        <hr>
+        <div class = "estiloDica" id = "caixaDeDicas">[[][][][][][][]]</div>
+        <!-- <div class = "ajustaLinha"></div> -->
+        <div class = "ajustaLinha"><hr></div>
+        
         
     <ul id="listaDosPredios">
 
