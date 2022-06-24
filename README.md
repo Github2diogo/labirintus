@@ -1,8 +1,24 @@
-# labirintus
+# títulos
 TD2022 IPT
 
-he nidaqmx package contains an API (Application Programming Interface) for interacting with the NI-DAQmx driver. The package is implemented in Python. The package is implemented as a complex, highly object-oriented wrapper around the NI-DAQmx C API using the ctypes Python library.
+<h1>Cabeçalho tamanho 1</h1>
+<h2>Cabeçalho tamanho 2</h2>
+<h3>Cabeçalho tamanho 3</h3>
+<h4>Cabeçalho tamanho 4</h4>
+<h5>Cabeçalho tamanho 5</h5>
+<h6>Cabeçalho tamanho 6</h6>
 
-nidaqmx supports all versions of the NI-DAQmx driver that ships with the C API. The C API is included in any version of the driver that supports it. The nidaqmx package does not require installation of the C header files.
+**negrito**
+*itálico*
 
-Some functions in the nidaqmx package may be unavailable with earlier versions of the NI-DAQmx driver. Visit the ni.com/downloads to upgrade your version of NI-DAQmx.
+
+Lista com bullets:
+- item 1
+- item 2
+- item 3
+
+
+[texto do link](https://www.ipt.br)
+
+
+<img jglkjldkfjglkdfgldfjglfd>
