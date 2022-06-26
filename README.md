@@ -8,8 +8,10 @@ TD2022 IPT
 <h5>Cabeçalho tamanho 5</h5>
 <h6>Cabeçalho tamanho 6</h6>
 
-**negrito**
-*itálico*
+uma frase com algo **em negrito**
+
+
+uma frase com algo *em itálico*
 
 
 Lista com bullets:
@@ -18,7 +20,7 @@ Lista com bullets:
 - item 3
 
 
-[texto do link](https://www.ipt.br)
+um texto com [um link](https://www.ipt.br) no meio
 
 
-<img jglkjldkfjglkdfgldfjglfd>
+<img src="https://www.ipt.br/imagens/logo_ipt.gif" alt="texto q aparece quando mouse fica em cima" width="200"/>
