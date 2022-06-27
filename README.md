@@ -1,4 +1,4 @@
-# Diario de Bordo - Labirintos
+# Diario de Bordo - LABirintos
 
 <h2>Equipe</h2>
 
@@ -58,17 +58,15 @@ Todo o código-fonte está disponível neste projeto do Github.
 <h2>Validação</h2>
 
 No dia 24.06.2022, Apolinário e Fabrício foram para a portaria realizar o teste do aplicativo.
-Fabrício fiqueo dentro da sala de recepção, enquanto o Apolinário ficou na cancela, junto com os guardas.
+Fabrício ficou dentro da sala de recepção, enquanto o Apolinário ficou na cancela, junto com os guardas.
 Fabrício instruiu as meninas da recepção e o Pascoal, apresentando o site do Labirintos, que teve um bom feedback de todos.
 A Cristiane do CAD também recebeu o link do aplicativo.
 
-No decorrer do teste, Fabrício identificou que havia muita gente que não conhecia o IPT ou o prédio de destino. Nestes casos, que foram 6, ele interviu no momento que o visitante era liberado. O visitante foi questionado sobre o uso do Google Maps e da leitura do QR-Code. Todos eles não tiveram problemas, e saíram da recepção com o trajeto do prédio nos seus respectivos celulares. Fabrício obteve feedback de dois visitantes, que retornaram para a recepção. Ambos informaram que não tiveram problemas ao achar o prédio através do aplicativo.
+No decorrer do teste, Fabrício identificou que havia muita gente que não conhecia o IPT ou o prédio de destino. Nestes casos, que foram 6, ele interviu no momento que o visitante era liberado. O visitante foi questionado sobre o uso do Google Maps e da leitura do QR-Code. Todos eles não tiveram problemas em obter a rota, e saíram da recepção com o trajeto do prédio nos seus respectivos celulares. Fabrício obteve feedback de dois visitantes, que retornaram para a recepção. Ambos informaram que não tiveram problemas ao achar o prédio através do aplicativo.
 
 Com o Apolinário, ele relatou que houve dois problemas: o primeiro, foi um que não coiseguiu ler o QR-Code devido ao celular do visitante ser antigo. O outro foi devido ao prédio de destino não estar cadastrado no aplicativo, sendo que este, foi imediatamente resolvido.
 
 Ficou claro para a equipe do Labirintos que o site no celular do funcionário ou em um tablet que ele tenha acesso é a melhor solução. Nos momentos de pico, eles têm que agir rapidamente para liberar o acesso. Um totem físico, por exemplo, não parece uma boa solução, já que há risco do cliente ficar mais perdido ainda, atrapalhando o fluxo da portaria.
-
-Por fim, percebemos que a nossa solução tem potencial e é muito fácil de ser implementada. Mesmo as meninas da recepção estarem no IPT há pouco tempo, ainda assim conseguiram usar o aplicativo sem problemas. Entretanto, ainda pode haver uma pequena barreira, já que o pessoal (principalmente os mais antigos) está acostumado em tentar explicar o destino verbalmente. E, por outro lado, o visitante não explicita se compreendeu ou não o que foi dito. Tanto do lado do funcionário quanto do visitante, há uma questão cultural e automática de como procedemos para se localizar e seguir a um destino.
 
 <img src="https://github.com/Github2diogo/labirintus/blob/main/20220623_101942.jpg" alt="Validação do app_1" width="200"/>
 
@@ -78,5 +76,19 @@ Por fim, percebemos que a nossa solução tem potencial e é muito fácil de ser
 
 <img src="https://github.com/Github2diogo/labirintus/blob/main/20220623_110824.jpg" alt="Validação do app_1" width="200"/>
 
+<h2>Conclusão</h2>
 
-<img src="https://www.ipt.br/imagens/logo_ipt.gif" alt="texto q aparece quando mouse fica em cima" width="200"/>
+Concluímos que a nossa solução tem potencial e é muito fácil de ser implementada. Mesmo as meninas da recepção estarem no IPT há pouco tempo, ainda assim conseguiram usar o aplicativo sem problemas. Entretanto, ainda pode haver uma pequena barreira, já que o pessoal (principalmente os mais antigos) está acostumado em tentar explicar o destino verbalmente. E, por outro lado, o visitante não explicita se compreendeu ou não o que foi dito. Tanto do lado do funcionário quanto do visitante, há uma questão cultural e automática de como procedemos para se localizar e seguir a um destino.
+
+Além do ganho com a experiência do cliente, percebemos também que o cadastro dos laboratórios no Google Maps têm potencial adicional com relação à divulgação dos serviços prestados pelo IPT.
+
+Temos como exemplo o LME, que possui cadastro no Google Maps, e que mantém um pequeno gerenciamento da página na Web. Segue alguns dados:
+- 50 mil visualizações;
+- 5,6 mil pesquisas;
+- 15 avaliações (todas com 5 estrelas).
+
+<img src="https://github.com/Github2diogo/labirintus/blob/main/Google_LME_1.JPG" alt="Insights Google_1" width="200"/>
+
+<img src="https://github.com/Github2diogo/labirintus/blob/main/Google_LME_2.JPG" alt="Insights Google 2" width="200"/>
+
+<img src="https://github.com/Github2diogo/labirintus/blob/main/Google_LME_3.JPG" alt="Insights Google 3" width="200"/>
