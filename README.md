@@ -74,13 +74,13 @@ Com o Apolinário, ele relatou que houve dois problemas: o primeiro, foi um que 
 
 Ficou claro para a equipe do Labirintos que o site no celular do funcionário ou em um tablet que ele tenha acesso é a melhor solução. Nos momentos de pico, eles têm que agir rapidamente para liberar o acesso. Um totem físico, por exemplo, não parece uma boa solução, já que há risco do cliente ficar mais perdido ainda, atrapalhando o fluxo da portaria.
 
-<img src="https://github.com/Github2diogo/labirintus/blob/main/ImagensReadme/Visita_1.jpg" alt="Validação do app_1" width="600"/>
+<img src="https://github.com/Github2diogo/labirintus/blob/main/ImagensReadme/Visita_1.jpg" alt="Validação do app_1" width="400"/>
 
-<img src="https://github.com/Github2diogo/labirintus/blob/main/ImagensReadme/Visita_2.jpg" alt="Validação do app_1" width="600"/>
+<img src="https://github.com/Github2diogo/labirintus/blob/main/ImagensReadme/Visita_2.jpg" alt="Validação do app_1" width="400"/>
 
-<img src="https://github.com/Github2diogo/labirintus/blob/main/ImagensReadme/Visita_3.jpg" alt="Validação do app_1" width="600"/>
+<img src="https://github.com/Github2diogo/labirintus/blob/main/ImagensReadme/Visita_3.jpg" alt="Validação do app_1" width="400"/>
 
-<img src="https://github.com/Github2diogo/labirintus/blob/main/ImagensReadme/Visita_4.jpg" alt="Validação do app_1" width="600"/>
+<img src="https://github.com/Github2diogo/labirintus/blob/main/ImagensReadme/Visita_4.jpg" alt="Validação do app_1" width="400"/>
 
 <h2>Conclusão</h2>
 
@@ -97,4 +97,14 @@ Temos como exemplo o LME, que possui cadastro no Google Maps, e que mantém um p
 
 <img src="https://github.com/Github2diogo/labirintus/blob/main/ImagensReadme/Google_LME_2.JPG" alt="Insights Google_2" width="800"/>
 
-<img src="https://github.com/Github2diogo/labirintus/blob/main/ImagensReadme/Google_LME_3.JPG" alt="Insights Google_3" width="800"/>
+<img src="https://github.com/Github2diogo/labirintus/blob/main/ImagensReadme/Google_LME_3.JPG" alt="Insights Google_3" width="600"/>
+
+<h2>Trabalhos Futuros</h2>
+
+As ações a seguir poderão ser implementadas, de acordo com o nível de prioridade que o projeto pode ser considerado pela alta direção do IPT.
+
+- Disponibilizar o link do LABrintos no site do IPT e na Intranet;
+- Cadastrar os demais laboratórios do IPT para que eles se beneficiem da ferramenta do Google, no que diz respeito à divulgação dos serviços;
+- Auxiliar na gestão da página Web do Google, apresentando o estudo de caso do LME;
+- Incluir mais palavras-chaves na busca do aplicativo, para faciliar a portaria a buscar o prédio corretamente;
+- Ampliar a solução para toda a USP, de forma a formar uma parceria com a Universidade, e proporcionar facilidade a todos os visitantes do campus.
