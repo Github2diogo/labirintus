@@ -1,11 +1,12 @@
+<img src="https://www.ipt.br/imagens/logo_ipt.gif" alt="texto q aparece quando mouse fica em cima" width="200"/>
 # Diario de Bordo - Labirintos
 Equipe:
-Anderson Poiani Lopes Mendes
-Andrea Pinheiro Felix
-Diogo Cesar Borges Silva
-Fabrício Gonçalves Torres
-Felipe Santiago Apolinario
-Flavio Sergio Jorge de Freitas
+Anderson Poiani Lopes Mendes.
+Andrea Pinheiro Felix.
+Diogo Cesar Borges Silva.
+Fabrício Gonçalves Torres.
+Felipe Santiago Apolinario.
+Flavio Sergio Jorge de Freitas.
 
 <h1>Cabeçalho Proposta</h1>
 .....
@@ -54,6 +55,3 @@ Lista com bullets:
 
 
 um texto com [um link](https://www.ipt.br) no meio
-
-
-<img src="https://www.ipt.br/imagens/logo_ipt.gif" alt="texto q aparece quando mouse fica em cima" width="200"/>
