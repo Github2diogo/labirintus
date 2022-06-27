@@ -95,6 +95,6 @@ Temos como exemplo o LME, que possui cadastro no Google Maps, e que mantém um p
 
 <img src="https://github.com/Github2diogo/labirintus/blob/main/ImagensReadme/Google_LME_1.JPG" alt="Insights Google_1" width="800"/>
 
-<img src="https://github.com/Github2diogo/labirintus/blob/main/ImagensReadme/Google_LME_1.JPG" alt="Insights Google_2" width="800"/>
+<img src="https://github.com/Github2diogo/labirintus/blob/main/ImagensReadme/Google_LME_2.JPG" alt="Insights Google_2" width="800"/>
 
-<img src="https://github.com/Github2diogo/labirintus/blob/main/ImagensReadme/Google_LME_1.JPG" alt="Insights Google_3" width="800"/>
+<img src="https://github.com/Github2diogo/labirintus/blob/main/ImagensReadme/Google_LME_3.JPG" alt="Insights Google_3" width="800"/>
