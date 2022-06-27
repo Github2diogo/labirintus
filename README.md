@@ -1,6 +1,9 @@
-<img src="https://www.ipt.br/imagens/logo_ipt.gif" alt="texto q aparece quando mouse fica em cima" width="200"/>
 # Diario de Bordo - Labirintos
-Equipe:
+
+<h1>Equipe:</h1>
+
+<img src="https://www.ipt.br/imagens/logo_ipt.gif" alt="texto q aparece quando mouse fica em cima" width="200"/>
+
 Anderson Poiani Lopes Mendes.
 Andrea Pinheiro Felix.
 Diogo Cesar Borges Silva.
@@ -8,7 +11,7 @@ Fabrício Gonçalves Torres.
 Felipe Santiago Apolinario.
 Flavio Sergio Jorge de Freitas.
 
-<h1>Cabeçalho Proposta</h1>
+
 .....
 
 <h1>Diagnóstico</h1>
