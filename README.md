@@ -74,13 +74,13 @@ Com o Apolinário, ele relatou que houve dois problemas: o primeiro, foi um que 
 
 Ficou claro para a equipe do Labirintos que o site no celular do funcionário ou em um tablet que ele tenha acesso é a melhor solução. Nos momentos de pico, eles têm que agir rapidamente para liberar o acesso. Um totem físico, por exemplo, não parece uma boa solução, já que há risco do cliente ficar mais perdido ainda, atrapalhando o fluxo da portaria.
 
-<img src="https://github.com/Github2diogo/labirintus/blob/main/ImagensReadme/Visita_1.jpg" alt="Validação do app_1" width="800"/>
+<img src="https://github.com/Github2diogo/labirintus/blob/main/ImagensReadme/Visita_1.jpg" alt="Validação do app_1" width="600"/>
 
-<img src="https://github.com/Github2diogo/labirintus/blob/main/ImagensReadme/Visita_2.jpg" alt="Validação do app_1" width="800"/>
+<img src="https://github.com/Github2diogo/labirintus/blob/main/ImagensReadme/Visita_2.jpg" alt="Validação do app_1" width="600"/>
 
-<img src="https://github.com/Github2diogo/labirintus/blob/main/ImagensReadme/Visita_3.jpg" alt="Validação do app_1" width="800"/>
+<img src="https://github.com/Github2diogo/labirintus/blob/main/ImagensReadme/Visita_3.jpg" alt="Validação do app_1" width="600"/>
 
-<img src="https://github.com/Github2diogo/labirintus/blob/main/ImagensReadme/Visita_4.jpg" alt="Validação do app_1" width="800"/>
+<img src="https://github.com/Github2diogo/labirintus/blob/main/ImagensReadme/Visita_4.jpg" alt="Validação do app_1" width="600"/>
 
 <h2>Conclusão</h2>
 
