@@ -45,7 +45,7 @@ Foi realizado brainstorm para identificar o melhor meio de apresentar o link do 
 
 <img src="https://github.com/Github2diogo/labirintus/blob/main/ImagensReadme/Brainstorm.png" alt="Brainstorm" width="800"/>
 
-Por meio do brainstorm, a equipe decidiu que o link com a rota para os prédios poderiam ser disponibilizados conforme segue:
+Por meio do brainstorm, a equipe decidiu que os links com a rota para os prédios poderiam ser disponibilizados conforme segue:
 
 - Portaria do IPT, com acesso ao site do LABirintos, disponibilizando o QR-Code para o visitante;
 - Diretamente para o visitante, por meio do orçamento do serviço ou por e-mail.
