@@ -43,7 +43,7 @@ O site deveria buscar o prédio a partir do:
 
 Foi realizado brainstorm para identificar o melhor meio de apresentar o link do trajeto ao visitante.
 
-<img src="https://github.com/Github2diogo/labirintus/blob/main/Whiteboard%5B2%5D-01.png" alt="Brainstorm" width="200"/>
+<img src="https://github.com/Github2diogo/labirintus/blob/main/ImagensReadme/Brainstorm.png" alt="Brainstorm" width="800"/>
 
 <h2>Desenvolvimento do protótipo</h2>
 
@@ -51,7 +51,7 @@ O protótipo foi desenvolvido, e pode ser acessado via link a seguir, ou QR-Code
 
 Todo o código-fonte está disponível neste projeto do Github.
 
-<img src="https://github.com/Github2diogo/labirintus/blob/main/MicrosoftTeams-image%20(4).png" alt="Brainstorm" width="200"/>
+<img src="https://github.com/Github2diogo/labirintus/blob/main/ImagensReadme/QR_Code.png" alt="QR-Code" width="400"/>
 
 [Site do LABrintos](https://tinyurl.com/iptTD2022)
 
@@ -68,13 +68,13 @@ Com o Apolinário, ele relatou que houve dois problemas: o primeiro, foi um que 
 
 Ficou claro para a equipe do Labirintos que o site no celular do funcionário ou em um tablet que ele tenha acesso é a melhor solução. Nos momentos de pico, eles têm que agir rapidamente para liberar o acesso. Um totem físico, por exemplo, não parece uma boa solução, já que há risco do cliente ficar mais perdido ainda, atrapalhando o fluxo da portaria.
 
-<img src="https://github.com/Github2diogo/labirintus/blob/main/20220623_101942.jpg" alt="Validação do app_1" width="200"/>
+<img src="https://github.com/Github2diogo/labirintus/blob/main/ImagensReadme/Visita_1.jpg" alt="Validação do app_1" width="200"/>
 
-<img src="https://github.com/Github2diogo/labirintus/blob/main/20220623_103337.jpg" alt="Validação do app_2" width="200"/>
+<img src="https://github.com/Github2diogo/labirintus/blob/main/ImagensReadme/Visita_2.jpg" alt="Validação do app_1" width="200"/>
 
-<img src="https://github.com/Github2diogo/labirintus/blob/main/20220623_103916.jpg" alt="Validação do app_3" width="200"/>
+<img src="https://github.com/Github2diogo/labirintus/blob/main/ImagensReadme/Visita_3.jpg" alt="Validação do app_1" width="200"/>
 
-<img src="https://github.com/Github2diogo/labirintus/blob/main/20220623_110824.jpg" alt="Validação do app_1" width="200"/>
+<img src="https://github.com/Github2diogo/labirintus/blob/main/ImagensReadme/Visita_4.jpg" alt="Validação do app_1" width="200"/>
 
 <h2>Conclusão</h2>
 
@@ -87,8 +87,8 @@ Temos como exemplo o LME, que possui cadastro no Google Maps, e que mantém um p
 - 5,6 mil pesquisas;
 - 15 avaliações (todas com 5 estrelas).
 
-<img src="https://github.com/Github2diogo/labirintus/blob/main/Google_LME_1.JPG" alt="Insights Google_1" width="200"/>
+<img src="https://github.com/Github2diogo/labirintus/blob/main/ImagensReadme/Google_LME_1.JPG" alt="Insights Google_1" width="800"/>
 
-<img src="https://github.com/Github2diogo/labirintus/blob/main/Google_LME_2.JPG" alt="Insights Google 2" width="200"/>
+<img src="https://github.com/Github2diogo/labirintus/blob/main/ImagensReadme/Google_LME_1.JPG" alt="Insights Google_2" width="800"/>
 
-<img src="https://github.com/Github2diogo/labirintus/blob/main/Google_LME_3.JPG" alt="Insights Google 3" width="200"/>
+<img src="https://github.com/Github2diogo/labirintus/blob/main/ImagensReadme/Google_LME_1.JPG" alt="Insights Google_3" width="800"/>
