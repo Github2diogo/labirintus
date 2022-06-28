@@ -107,4 +107,5 @@ As ações a seguir poderão ser implementadas, de acordo com o nível de priori
 - Cadastrar os demais laboratórios do IPT para que eles se beneficiem da ferramenta do Google, no que diz respeito à divulgação dos serviços;
 - Auxiliar na gestão da página Web do Google, apresentando o estudo de caso do LME;
 - Incluir mais palavras-chaves na busca do aplicativo, para faciliar a portaria a buscar o prédio corretamente;
-- Ampliar a solução para toda a USP, de forma a formar uma parceria com a Universidade, e proporcionar facilidade a todos os visitantes do campus.
+- Ampliar a solução para toda a USP, de forma a formar uma parceria com a Universidade, e proporcionar facilidade a todos os visitantes do campus;
+- Oferecer a solução para outras empresas com campus similares a do IPT.
