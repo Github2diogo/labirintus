@@ -73,7 +73,18 @@ Foi utilizado Python e a biblioteca [pyqrcode](https://code.google.com/archive/p
 
 <h3>Sistema de dicas dinâmico</h3>
 
-Foi utilizado javascript
+Com o objetivo de facilitar o uso do LABirintus foi desenvolvido um recurso de dica dinâmico que orienta o usuário a medida que ele digita no campo de busca.
+
+O sistema de dicas foi criado utilizando javascript.
+
+
+<h3>Programa principal</h3>
+
+Feito em javascript, o programa principal usa o que é digitado no campo de busca para tornar visível os elementos de uma lista que contém as informações de interesse previamente cadastradas.
+
+É realizado um tratamento do que é digitado, permitindo que o usuário esteja livre para utilizar letras maiúsculas ou minúsculas e o emprego ou não de acentos gráficos.
+
+
 
 
 <h2>Validação</h2>
