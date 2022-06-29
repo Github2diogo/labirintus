@@ -138,6 +138,7 @@ Temos como exemplo o LME, que possui cadastro no Google Maps, e que mantém um p
 As ações a seguir poderão ser implementadas, de acordo com o nível de prioridade que o projeto pode ser considerado pela alta direção do IPT.
 
 - Hospedar e disponibilizar o link do LABrintus no site do IPT e na Intranet;
+- Verificar a necessidade de outras dicas dinâmicas que facilitem o uso;
 - Cadastrar os demais laboratórios do IPT para que eles se beneficiem da ferramenta do Google Maps, no que diz respeito à divulgação dos serviços;
 - Auxiliar na gestão da página Web do Google, apresentando o estudo de caso do LME;
 - Incluir mais palavras-chaves na busca do aplicativo, para faciliar a portaria a buscar o prédio corretamente;
