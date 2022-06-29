@@ -1,9 +1,9 @@
 
 [ Clique [aqui](https://tinyurl.com/iptTD2022) para acessar o site do LABirintus ]
 
-# Diario de Bordo - Equipe LABirintos
+# Diário de Bordo - Equipe LABirintos
 
-<h2>Equipe</h2>
+<h3>Membros</h3>
 
 - Anderson Poiani Lopes Mendes (LME)
 - Andrea Pinheiro Felix (CNPG)
