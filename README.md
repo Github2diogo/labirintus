@@ -65,6 +65,17 @@ Todo o código-fonte está disponível neste projeto do Github.
 
 [Site do LABrintos](https://tinyurl.com/iptTD2022)
 
+
+<h3>Para gerar os QR codes</h3>
+
+Foi utilizado Python e a biblioteca [pyqrcode](https://code.google.com/archive/p/pyqrcode/)
+
+
+<h3>Sistema de dicas dinâmico</h3>
+
+Foi utilizado javascript
+
+
 <h2>Validação</h2>
 
 No dia 24.06.2022, Felipe e Fabrício foram até a portaria do IPT para realizar o teste do aplicativo.
