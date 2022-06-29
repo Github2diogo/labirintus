@@ -26,6 +26,7 @@ links = [
     ['p65', 'https://www.google.com.br/maps/dir/IPT+-+Instituto+de+Pesquisas+Tecnol%C3%B3gicas,+Av.+Prof.+Almeida+Prado,+532+-+Butant%C3%A3,+S%C3%A3o+Paulo+-+SP,+05508-901/-23.5582795,-46.7416122/@-23.5586898,-46.7406517,1667m/data=!3m2!1e3!4b1!4m9!4m8!1m5!1m1!1s0x94ce56111f23979f:0x4efc1ff99667559c!2m2!1d-46.7347373!2d-23.5568084!1m0!3e0'],
     ]
 
+# pra quando não precisamos gerar todos os QR codes
 # links = [
 #     ['p54','https://www.google.com.br/maps/dir/IPT+-+Instituto+de+Pesquisas+Tecnol%C3%B3gicas,+Av.+Prof.+Almeida+Prado,+532+-+Butant%C3%A3,+S%C3%A3o+Paulo+-+SP,+05508-901/-23.5583535,-46.7386303/@-23.5586898,-46.7392567,1667m/data=!3m2!1e3!4b1!4m9!4m8!1m5!1m1!1s0x94ce56111f23979f:0x4efc1ff99667559c!2m2!1d-46.7347373!2d-23.5568084!1m0!3e0'],
 # ]
@@ -37,66 +38,26 @@ for link in links:
     with open('' + link[0] + '.png', 'wb') as f:
         qrobj.png(f, scale=3)
 
-    # Now open that png image to put the logo
+    # Abre a imagem .png a ser inserida como logo no qr code criado
     img = Image.open('' + link[0] + '.png')
     img = img.convert("RGBA")
     width, height = img.size
-
-    # Open the logo image
     logo = Image.open('logo.png')
 
-    # How big the logo we want to put in the qr code png
+    # Tamanho que o logo vai ter
     logo_size = 72
 
-    # Calculate xmin, ymin, xmax, ymax to put the logo
+    # Posicao onde o logo será inserido xmin, ymin, xmax, ymax
     xmin = ymin = int((width / 2) - (logo_size / 2))
     xmax = ymax = int((width / 2) + (logo_size / 2))
 
-    # resize the logo as calculated
+    # redimensionamos o logo conforme calculado
     logo = logo.resize((xmax - xmin, ymax - ymin))
 
-    # put the logo in the qr code
+    # fazemos a inserção
     img.paste(logo, (xmin, ymin, xmax, ymax))
 
     img.show()
     img.save('' + link[0] + '.png')
     #img.save('./tmp/'+str(nome_arquivo)+'.png')
     
-
-# # Generate the qr code and save as png
-# qrobj = pyqrcode.create(link)
-
-
-# print('Digite o nome do arquivo a ser gerado')
-# data = input('')
-
-# if (data == ''):
-# 	data = 'LMM'
-
-# with open(''+data+'.png', 'wb') as f:
-#     qrobj.png(f, scale=5)
-
-# # Now open that png image to put the logo
-# img = Image.open(''+data+'.png')
-# img = img.convert("RGBA")
-# width, height = img.size
-
-# # Open the logo image
-# logo = Image.open('logo.png')
-
-# # How big the logo we want to put in the qr code png
-# logo_size = 54
-
-# # Calculate xmin, ymin, xmax, ymax to put the logo
-# xmin = ymin = int((width / 2) - (logo_size / 2))
-# xmax = ymax = int((width / 2) + (logo_size / 2))
-
-# # resize the logo as calculated
-# logo = logo.resize((xmax - xmin, ymax - ymin))
-
-# # put the logo in the qr code
-# img.paste(logo, (xmin, ymin, xmax, ymax))
-
-# img.show()
-# img.save(''+data+'.png')
-# #img.save('./tmp/'+str(nome_arquivo)+'.png')
