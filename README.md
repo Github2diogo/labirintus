@@ -70,12 +70,16 @@ Todo o código-fonte está disponível neste projeto do Github.
 
 Foi utilizado Python e a biblioteca [pyqrcode](https://code.google.com/archive/p/pyqrcode/)
 
+Clique [aqui](https://github.com/Github2diogo/labirintus/blob/main/cria_QRCodes/cria_qrCodes.py) para ver o código.
+
 
 <h3>- Sistema de dicas dinâmico</h3>
 
 Com o objetivo de facilitar o uso do LABirintus, foi desenvolvido um recurso de dica dinâmico que orienta o usuário a medida que ele digita no campo de busca.
 
 O sistema de dicas foi criado utilizando javascript.
+
+Clique [aqui]([https://github.com/Github2diogo/labirintus/blob/main/cria_QRCodes/cria_qrCodes.py](https://github.com/Github2diogo/labirintus/blob/main/js/dicas.js) para ver o código.
 
 
 <h3>- Programa principal</h3>
@@ -84,7 +88,9 @@ Feito em javascript, o programa principal usa o que é digitado no campo de busc
 
 É realizado um tratamento do que é digitado, permitindo que o usuário esteja livre para utilizar letras maiúsculas ou minúsculas e o emprego ou não de acentos gráficos.
 
-Para facilitar a adição e correção dos dados da lista foi criada uma planilha em Excel.
+Para facilitar a adição e correção dos dados da lista foi criada uma [planilha em Excel](https://github.com/Github2diogo/labirintus/blob/main/cria_QRCodes/LabsLista_e_LinksRotas.xlsx).
+
+Clique [aqui](https://github.com/Github2diogo/labirintus/blob/main/js/principal.js) para ver o código e [aqui](https://github.com/Github2diogo/labirintus/blob/main/index.html) para ver a respectiva página HTML.
 
 
 <h2>Validação</h2>
