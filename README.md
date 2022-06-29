@@ -73,7 +73,7 @@ Foi utilizado Python e a biblioteca [pyqrcode](https://code.google.com/archive/p
 
 <h3>- Sistema de dicas dinâmico</h3>
 
-Com o objetivo de facilitar o uso do LABirintus foi desenvolvido um recurso de dica dinâmico que orienta o usuário a medida que ele digita no campo de busca.
+Com o objetivo de facilitar o uso do LABirintus, foi desenvolvido um recurso de dica dinâmico que orienta o usuário a medida que ele digita no campo de busca.
 
 O sistema de dicas foi criado utilizando javascript.
 
