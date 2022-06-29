@@ -28,7 +28,7 @@ A conversa com a Cláudia e com o pessoal da portaria demonstrou que o deslocame
 
 À partir da visita na portaria, foi possível constatar pessoalmente o problema. Segue relato de Fabrício:
 
-No período de 15 minutos que ficamos na portaria, conseguimos evidenciar e diagnosticar o problema, já que um dos casos que vimos, o visitante chegou ao IPT e, após a liberação de acesso, o funcionário perguntou a ele se conhecia o laboratório (Prédio 36). O cliente disse que não e, mesmo após explicação verbal e com o mapa, pelo funicionário, o cliente não compreendeu. O funcionário, percebendo isso, pediu a ele que conversasse com o guarda da outra portaria, que fica perto do prédio 56. Ficou claro que qualquer outro prédio localizado numa área mais escondida, faria com que o visitante ficasse bastante perdido no Instituto.
+*"No período de 15 minutos que ficamos na portaria, conseguimos evidenciar e diagnosticar o problema, já que um dos casos que vimos, o visitante chegou ao IPT e, após a liberação de acesso, o funcionário perguntou a ele se conhecia o laboratório (Prédio 36). O cliente disse que não e, mesmo após explicação verbal e com o mapa, pelo funicionário, o cliente não compreendeu. O funcionário, percebendo isso, pediu a ele que conversasse com o guarda da outra portaria, que fica perto do prédio 56. Ficou claro que qualquer outro prédio localizado numa área mais escondida, faria com que o visitante ficasse bastante perdido no Instituto."*
 
 <h2>Solução</h2>
 
