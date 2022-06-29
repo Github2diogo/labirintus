@@ -84,7 +84,7 @@ Feito em javascript, o programa principal usa o que é digitado no campo de busc
 
 É realizado um tratamento do que é digitado, permitindo que o usuário esteja livre para utilizar letras maiúsculas ou minúsculas e o emprego ou não de acentos gráficos.
 
-
+Para facilitar a adição e correção dos dados da lista foi criada uma planilha em Excel.
 
 
 <h2>Validação</h2>
