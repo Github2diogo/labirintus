@@ -79,7 +79,7 @@ Com o objetivo de facilitar o uso do LABirintus, foi desenvolvido um recurso de 
 
 O sistema de dicas foi criado utilizando javascript.
 
-Clique [aqui]([https://github.com/Github2diogo/labirintus/blob/main/cria_QRCodes/cria_qrCodes.py](https://github.com/Github2diogo/labirintus/blob/main/js/dicas.js) para ver o código.
+Clique [aqui](https://github.com/Github2diogo/labirintus/blob/main/js/dicas.js) para ver o código.
 
 
 <h3>- Programa principal</h3>
