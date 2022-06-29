@@ -1,4 +1,7 @@
-# Diario de Bordo - LABirintos
+
+[ Clique [aqui](https://tinyurl.com/iptTD2022) para acessar o site do LABirintus ]
+
+# Diario de Bordo - Equipe LABirintos
 
 <h2>Equipe</h2>
 
@@ -15,10 +18,10 @@ Os visitantes do IPT (transportadoras, clientes, entre outros) têm dificuldades
 
 Causas:
 
-- Sinalização física ainda é insuficiente;
-- Os visitantes têm dificuldade em entender o mapa físico (em papel) da portaria;
-- Os funcionários da portaria não conhecem todo o IPT para auxiliar os visitantes adequadamente;
-- O fluxo alto de pessoas na portaria não permite maior atenção para o auxílio ao cliente no que diz respeito à localização dos prédios.
+- Sinalização física ainda é insuficiente
+- Os visitantes têm dificuldade em entender o mapa físico (em papel) da portaria
+- Os funcionários da portaria não conhecem todo o IPT para auxiliar os visitantes adequadamente
+- O alto fluxo de pessoas na portaria não permite maior atenção para auxíliar os clientes no que diz respeito à localização dos prédios
 
 <h2>Diagnóstico</h2>
 
@@ -32,14 +35,16 @@ A conversa com a Cláudia e com o pessoal da portaria demonstrou que o deslocame
 
 <h2>Solução</h2>
 
-Disponibilizar um site de busca responsivo, ou seja, que funcione em um desktop ou em um celular, que pudesse apresentar o link para o **Google Maps**, com o trajeto entre a portaria do IPT e o prédio de destino. O link seria disponibilizado via um QR_Code, gerado pelo site.
+Disponibilizar um site de busca responsivo, que funcione em desktop e em celular, que pudesse apresentar o link para o **Google Maps**, com o trajeto entre a portaria do IPT e o prédio de destino. O link seria disponibilizado via um *QR code*, gerado pelo site.
+
+O nome da equipe ficou sendo LABirintos, enquanto que a plataforma recebeu o nome de LABirintus.
 
 O site deveria buscar o prédio a partir do:
-- número do prédio;
-- nome do laboratório;
-- sigla do laboratório;
-- ramal;
-- nome do contato.
+- número do prédio
+- nome do laboratório
+- sigla do laboratório
+- ramal
+- nome do contato
 
 Foi realizado brainstorm para identificar o melhor meio de apresentar o link do trajeto ao visitante.
 
@@ -47,30 +52,30 @@ Foi realizado brainstorm para identificar o melhor meio de apresentar o link do 
 
 Por meio do brainstorm, a equipe decidiu que os links com a rota para os prédios poderiam ser disponibilizados conforme segue:
 
-- Portaria do IPT, com acesso ao site do LABirintos, disponibilizando o QR-Code para o visitante;
+- Portaria do IPT, com acesso ao site do LABirintus, disponibilizando o *QR code* para o visitante;
 - Diretamente para o visitante, por meio do orçamento do serviço ou por e-mail.
 
 
 <h2>Desenvolvimento do protótipo</h2>
 
-O protótipo foi desenvolvido, e pode ser acessado [via link](https://tinyurl.com/iptTD2022), ou QR-Code abaixo:
+O protótipo foi desenvolvido, e pode ser acessado [via link](https://tinyurl.com/iptTD2022), ou QR code abaixo:
 
 Todo o código-fonte está disponível neste projeto do Github.
 
-<img src="https://github.com/Github2diogo/labirintus/blob/main/ImagensReadme/QR_Code.png" alt="QR-Code" width="400"/>
+<img src="https://github.com/Github2diogo/labirintus/blob/main/ImagensReadme/QR_Code.png" alt="QR code" width="400"/>
 
 [Site do LABrintos](https://tinyurl.com/iptTD2022)
 
 <h2>Validação</h2>
 
-No dia 24.06.2022, Apolinário e Fabrício foram para a portaria realizar o teste do aplicativo.
+No dia 24.06.2022, Felipe e Fabrício foram até a portaria do IPT para realizar o teste do aplicativo.
 Fabrício ficou dentro da sala de recepção, enquanto o Apolinário ficou na cancela, junto com os guardas.
 Fabrício instruiu as meninas da recepção e o Pascoal, apresentando o site do Labirintos, que teve um bom feedback de todos.
 A Cristiane do CAD também recebeu o link do aplicativo.
 
-No decorrer do teste, Fabrício identificou que havia muita gente que não conhecia o IPT ou o prédio de destino. Nestes casos, que foram 6, ele interviu no momento que o visitante era liberado. O visitante foi questionado sobre o uso do Google Maps e da leitura do QR-Code. Todos eles não tiveram problemas em obter a rota, e saíram da recepção com o trajeto do prédio nos seus respectivos celulares. Fabrício obteve feedback de dois visitantes, que retornaram para a recepção. Ambos informaram que não tiveram problemas ao achar o prédio através do aplicativo.
+No decorrer do teste, Fabrício identificou que havia muita gente que não conhecia o IPT ou o prédio de destino. Nestes casos, que foram 6, ele interviu no momento que o visitante era liberado. O visitante foi questionado sobre o uso do Google Maps e da leitura do QR code. Todos eles não tiveram problemas em obter a rota, e saíram da recepção com o trajeto do prédio nos seus respectivos celulares. Fabrício obteve feedback de dois visitantes, que retornaram para a recepção. Ambos informaram que não tiveram problemas ao achar o prédio através do aplicativo.
 
-Com o Apolinário, ele relatou que houve dois problemas: o primeiro, foi um que não coiseguiu ler o QR-Code devido ao celular do visitante ser antigo. O outro foi devido ao prédio de destino não estar cadastrado no aplicativo, sendo que este, foi imediatamente resolvido.
+Com o Felipe, ele relatou que houve dois problemas: o primeiro, foi um que não coiseguiu ler o *QR code* devido ao celular do visitante ser antigo. O outro foi devido ao prédio de destino não estar cadastrado no aplicativo, sendo que este, foi imediatamente resolvido.
 
 Ficou claro para a equipe do Labirintos que o site no celular do funcionário ou em um tablet que ele tenha acesso é a melhor solução. Nos momentos de pico, eles têm que agir rapidamente para liberar o acesso. Um totem físico, por exemplo, não parece uma boa solução, já que há risco do cliente ficar mais perdido ainda, atrapalhando o fluxo da portaria.
 
@@ -84,14 +89,14 @@ Ficou claro para a equipe do Labirintos que o site no celular do funcionário ou
 
 <h2>Conclusão</h2>
 
-Concluímos que a nossa solução tem potencial e é muito fácil de ser implementada. Mesmo as meninas da recepção estarem no IPT há pouco tempo, ainda assim conseguiram usar o aplicativo sem problemas. Entretanto, ainda pode haver uma pequena barreira, já que o pessoal (principalmente os mais antigos) está acostumado em tentar explicar o destino verbalmente. E, por outro lado, o visitante não explicita se compreendeu ou não o que foi dito. Tanto do lado do funcionário quanto do visitante, há uma questão cultural e automática de como procedemos para se localizar e seguir a um destino.
+Concluímos que a nossa solução tem potencial e é muito fácil de ser implementada. Apesar da equipe da recepção estar no IPT há pouco tempo, o aplicativo pode ser usado sem problemas. Entretanto, ainda pode haver uma pequena barreira, já que o pessoal (principalmente os mais antigos) está acostumado em tentar explicar o destino verbalmente. Adicinalmente, o visitante nem sempre explicita se compreendeu ou não o que foi dito. Tanto do lado do funcionário quanto do visitante, há uma questão cultural e automática de como procedemos para se localizar e seguir a rota para um destino.
 
 Além do ganho com a experiência do cliente, percebemos também que o cadastro dos laboratórios no Google Maps têm potencial adicional com relação à divulgação dos serviços prestados pelo IPT.
 
-Temos como exemplo o LME, que possui cadastro no Google Maps, e que mantém um pequeno gerenciamento da página na Web. Segue alguns dados:
-- 50 mil visualizações;
-- 5,6 mil pesquisas;
-- 15 avaliações (todas com 5 estrelas).
+Temos como exemplo o LME, que possui cadastro no Google Maps, e que mantém um pequeno gerenciamento da página na Web dentro da plataforma. Segue alguns dados:
+- 50 mil visualizações
+- 5,6 mil pesquisas
+- 15 avaliações (todas com 5 estrelas)
 
 <img src="https://github.com/Github2diogo/labirintus/blob/main/ImagensReadme/Google_LME_1.JPG" alt="Insights Google_1" width="800"/>
 
@@ -103,9 +108,9 @@ Temos como exemplo o LME, que possui cadastro no Google Maps, e que mantém um p
 
 As ações a seguir poderão ser implementadas, de acordo com o nível de prioridade que o projeto pode ser considerado pela alta direção do IPT.
 
-- Disponibilizar o link do LABrintos no site do IPT e na Intranet;
-- Cadastrar os demais laboratórios do IPT para que eles se beneficiem da ferramenta do Google, no que diz respeito à divulgação dos serviços;
+- Hospedar e disponibilizar o link do LABrintus no site do IPT e na Intranet;
+- Cadastrar os demais laboratórios do IPT para que eles se beneficiem da ferramenta do Google Maps, no que diz respeito à divulgação dos serviços;
 - Auxiliar na gestão da página Web do Google, apresentando o estudo de caso do LME;
 - Incluir mais palavras-chaves na busca do aplicativo, para faciliar a portaria a buscar o prédio corretamente;
 - Ampliar a solução para toda a USP, de forma a formar uma parceria com a Universidade, e proporcionar facilidade a todos os visitantes do campus;
-- Oferecer a solução para outras empresas com campus similares a do IPT.
+- Oferecer a solução para outras empresas com campus com vários prédios similares ao do IPT.
