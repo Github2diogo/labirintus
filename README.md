@@ -21,7 +21,7 @@ Causas:
 - Sinalização física ainda é insuficiente
 - Os visitantes têm dificuldade em entender o mapa físico (em papel) da portaria
 - Os funcionários da portaria não conhecem todo o IPT para auxiliar os visitantes adequadamente
-- O alto fluxo de pessoas na portaria não permite maior atenção para auxíliar os clientes no que diz respeito à localização dos prédios
+- O alto fluxo de pessoas na portaria não permite maior atenção para auxíliar os visitantes no que diz respeito à localização dos prédios
 
 <h2>Diagnóstico</h2>
 
@@ -75,10 +75,10 @@ A Cristiane do CAD também recebeu o link do aplicativo.
 No decorrer do teste, Fabrício identificou que havia muita gente que não conhecia o IPT ou o prédio de destino. Nestes casos, que foram 6, ele interviu no momento que o visitante era liberado. O visitante foi questionado sobre o uso do Google Maps e da leitura do *QR code*. Todos eles não tiveram problemas em obter a rota, e saíram da recepção com o trajeto do prédio nos seus respectivos celulares. Fabrício obteve feedback de dois visitantes, que retornaram para a recepção. Ambos informaram que não tiveram problemas ao achar o prédio através do aplicativo.
 
 Com o Felipe, foram detectados dois problemas:
-1 - Um cliente não coiseguiu ler o *QR code* devido ao celular do visitante ser antigo. O que poderia ser solucionado se o site do LABirintus for disponibilizado para acesso dos clientes, que poderão acessar os links com as rotas clicando diretamente na tela. 
+1 - Um visitante não coiseguiu ler o *QR code* porque seu celular era antigo. A solução proposta seria disponibilizar site do LABirintus para qualquer visitante, dessa forma seria possível acessar os links com as rotas clicando diretamente na tela. 
 2 - Um prédio de destino não estava cadastrado no aplicativo. O problema foi imediatamente resolvido.
 
-Ficou claro para a equipe do Labirintos que o site no celular do funcionário ou em um tablet que ele tenha acesso é a melhor solução. Nos momentos de pico, eles têm que agir rapidamente para liberar o acesso. Um totem físico, por exemplo, não parece uma boa solução, já que há risco do cliente ficar mais perdido ainda, atrapalhando o fluxo da portaria.
+Ficou claro para a equipe do Labirintos que o site no celular do funcionário ou em um tablet que ele tenha acesso é a melhor solução. Nos momentos de pico, eles têm que agir rapidamente para liberar o acesso. Um totem físico, por exemplo, não parece uma boa solução, já que há risco do visitante ficar mais perdido ainda, atrapalhando o fluxo da portaria.
 
 <img src="https://github.com/Github2diogo/labirintus/blob/main/ImagensReadme/Visita_1.jpg" alt="Validação do app_1" width="400"/>
 
@@ -92,7 +92,7 @@ Ficou claro para a equipe do Labirintos que o site no celular do funcionário ou
 
 Concluímos que a nossa solução tem potencial e é muito fácil de ser implementada. Apesar da equipe da recepção estar no IPT há pouco tempo, o aplicativo pode ser usado sem problemas. Entretanto, ainda pode haver uma pequena barreira, já que o pessoal (principalmente os mais antigos) está acostumado em tentar explicar o destino verbalmente. Adicinalmente, o visitante nem sempre explicita se compreendeu ou não o que foi dito. Tanto do lado do funcionário quanto do visitante, há uma questão cultural e automática de como procedemos para se localizar e seguir a rota para um destino.
 
-Além do ganho com a experiência do cliente, percebemos também que o cadastro dos laboratórios no Google Maps têm potencial adicional com relação à divulgação dos serviços prestados pelo IPT.
+Além do ganho com a experiência do visitante, percebemos também que o cadastro dos laboratórios no Google Maps têm potencial adicional com relação à divulgação dos serviços prestados pelo IPT.
 
 Temos como exemplo o LME, que possui cadastro no Google Maps, e que mantém um pequeno gerenciamento da página na Web dentro da plataforma. Segue alguns dados:
 - 50 mil visualizações
@@ -114,4 +114,4 @@ As ações a seguir poderão ser implementadas, de acordo com o nível de priori
 - Auxiliar na gestão da página Web do Google, apresentando o estudo de caso do LME;
 - Incluir mais palavras-chaves na busca do aplicativo, para faciliar a portaria a buscar o prédio corretamente;
 - Ampliar a solução para toda a USP, de forma a formar uma parceria com a Universidade, e proporcionar facilidade a todos os visitantes do campus;
-- Oferecer a solução para outras empresas com campus com vários prédios similares ao do IPT.
+- Oferecer a solução para outras empresas com campus com vários prédios e similares ao do IPT.
