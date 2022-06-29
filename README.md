@@ -39,12 +39,11 @@ Disponibilizar um site de busca responsivo, que funcione em desktop e em celular
 
 O nome da equipe ficou sendo LABirintos, enquanto que a plataforma recebeu o nome de LABirintus.
 
-O site deveria buscar o prédio a partir do:
+Considerando que prédios sem laboratórios, departamentos ou seções não fossem cadastrados, o site deveria informar a rota para o prédio a partir do:
 - número do prédio
 - nome do laboratório
-- sigla do laboratório
-- ramal
-- nome do contato
+- sigla do laboratório, departamento ou seção
+- ramal e nome do contato
 
 Foi realizado brainstorm para identificar o melhor meio de apresentar o link do trajeto ao visitante.
 
@@ -58,7 +57,7 @@ Por meio do brainstorm, a equipe decidiu que os links com a rota para os prédio
 
 <h2>Desenvolvimento do protótipo</h2>
 
-O protótipo foi desenvolvido, e pode ser acessado [via link](https://tinyurl.com/iptTD2022), ou QR code abaixo:
+O protótipo foi desenvolvido, e pode ser acessado [via link](https://tinyurl.com/iptTD2022), ou *QR code* abaixo:
 
 Todo o código-fonte está disponível neste projeto do Github.
 
@@ -73,9 +72,11 @@ Fabrício ficou dentro da sala de recepção, enquanto o Apolinário ficou na ca
 Fabrício instruiu as meninas da recepção e o Pascoal, apresentando o site do Labirintos, que teve um bom feedback de todos.
 A Cristiane do CAD também recebeu o link do aplicativo.
 
-No decorrer do teste, Fabrício identificou que havia muita gente que não conhecia o IPT ou o prédio de destino. Nestes casos, que foram 6, ele interviu no momento que o visitante era liberado. O visitante foi questionado sobre o uso do Google Maps e da leitura do QR code. Todos eles não tiveram problemas em obter a rota, e saíram da recepção com o trajeto do prédio nos seus respectivos celulares. Fabrício obteve feedback de dois visitantes, que retornaram para a recepção. Ambos informaram que não tiveram problemas ao achar o prédio através do aplicativo.
+No decorrer do teste, Fabrício identificou que havia muita gente que não conhecia o IPT ou o prédio de destino. Nestes casos, que foram 6, ele interviu no momento que o visitante era liberado. O visitante foi questionado sobre o uso do Google Maps e da leitura do *QR code*. Todos eles não tiveram problemas em obter a rota, e saíram da recepção com o trajeto do prédio nos seus respectivos celulares. Fabrício obteve feedback de dois visitantes, que retornaram para a recepção. Ambos informaram que não tiveram problemas ao achar o prédio através do aplicativo.
 
-Com o Felipe, ele relatou que houve dois problemas: o primeiro, foi um que não coiseguiu ler o *QR code* devido ao celular do visitante ser antigo. O outro foi devido ao prédio de destino não estar cadastrado no aplicativo, sendo que este, foi imediatamente resolvido.
+Com o Felipe, foram detectados dois problemas:
+1 - Um cliente não coiseguiu ler o *QR code* devido ao celular do visitante ser antigo. O que poderia ser solucionado se o site do LABirintus for disponibilizado para acesso dos clientes, que poderão acessar os links com as rotas clicando diretamente na tela. 
+2 - Um prédio de destino não estava cadastrado no aplicativo. O problema foi imediatamente resolvido.
 
 Ficou claro para a equipe do Labirintos que o site no celular do funcionário ou em um tablet que ele tenha acesso é a melhor solução. Nos momentos de pico, eles têm que agir rapidamente para liberar o acesso. Um totem físico, por exemplo, não parece uma boa solução, já que há risco do cliente ficar mais perdido ainda, atrapalhando o fluxo da portaria.
 
