@@ -94,7 +94,7 @@ Concluímos que a nossa solução tem potencial e é muito fácil de ser impleme
 
 Além do ganho com a experiência do visitante, percebemos também que o cadastro dos laboratórios no Google Maps têm potencial adicional com relação à divulgação dos serviços prestados pelo IPT.
 
-Temos como exemplo o LME, que possui cadastro no Google Maps, e que mantém um pequeno gerenciamento da página na Web dentro da plataforma. Segue alguns dados:
+Temos como exemplo o LME, que possui cadastro no Google Maps, e que mantém um pequeno gerenciamento da página na Web dentro da plataforma. Segue alguns dados do referentes ao último trimestre (abril ~ junho 2022):
 - 50 mil visualizações
 - 5,6 mil pesquisas
 - 15 avaliações (todas com 5 estrelas)
