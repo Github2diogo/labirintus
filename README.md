@@ -53,7 +53,7 @@ Por meio do brainstorm, a equipe decidiu que os links com a rota para os prédio
 
 <h2>Desenvolvimento do protótipo</h2>
 
-O protótipo foi desenvolvido, e pode ser acessado via link a seguir, ou QR-Code abaixo:
+O protótipo foi desenvolvido, e pode ser acessado [via link](https://tinyurl.com/iptTD2022), ou QR-Code abaixo:
 
 Todo o código-fonte está disponível neste projeto do Github.
 
