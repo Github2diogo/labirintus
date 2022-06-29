@@ -66,19 +66,19 @@ Todo o código-fonte está disponível neste projeto do Github.
 [Site do LABrintos](https://tinyurl.com/iptTD2022)
 
 
-<h3>Para gerar os QR codes</h3>
+<h3>- Para gerar os QR codes</h3>
 
 Foi utilizado Python e a biblioteca [pyqrcode](https://code.google.com/archive/p/pyqrcode/)
 
 
-<h3>Sistema de dicas dinâmico</h3>
+<h3>- Sistema de dicas dinâmico</h3>
 
 Com o objetivo de facilitar o uso do LABirintus foi desenvolvido um recurso de dica dinâmico que orienta o usuário a medida que ele digita no campo de busca.
 
 O sistema de dicas foi criado utilizando javascript.
 
 
-<h3>Programa principal</h3>
+<h3>- Programa principal</h3>
 
 Feito em javascript, o programa principal usa o que é digitado no campo de busca para tornar visível os elementos de uma lista que contém as informações de interesse previamente cadastradas.
 
