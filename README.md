@@ -35,11 +35,11 @@ A conversa com a Cláudia e com o pessoal da portaria demonstrou que o deslocame
 
 <h2>Solução</h2>
 
-Disponibilizar um site de busca responsivo, que funcione em desktop e em celular, que pudesse apresentar o link para o **Google Maps**, com o trajeto entre a portaria do IPT e o prédio de destino. O link seria disponibilizado via um *QR code*, gerado pelo site.
+Disponibilizar um site de busca responsivo, que funcione em desktop e em celular, e que pudesse apresentar o link para o **Google Maps**, com o trajeto entre a portaria do IPT e o prédio de destino. O link seria disponibilizado via um *QR code*, gerado pelo site.
 
 O nome da equipe ficou sendo LABirintos, enquanto que a plataforma recebeu o nome de LABirintus.
 
-Considerando que prédios sem laboratórios, departamentos ou seções não fossem cadastrados, o site deveria informar a rota para o prédio a partir do:
+Considerando que prédios sem laboratórios, departamentos ou seções não fossem cadastrados nesta primeira etapa do projeto, o site deveria informar a rota para o prédio a partir do:
 - número do prédio
 - nome do laboratório
 - sigla do laboratório, departamento ou seção
