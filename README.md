@@ -92,6 +92,9 @@ Para facilitar a adição e correção dos dados da lista foi criada uma [planil
 
 Clique [aqui](https://github.com/Github2diogo/labirintus/blob/main/js/principal.js) para ver o código e [aqui](https://github.com/Github2diogo/labirintus/blob/main/index.html) para ver a respectiva página HTML.
 
+<h2> Custos </h2>
+
+120 h da equipe.
 
 <h2>Validação</h2>
 
