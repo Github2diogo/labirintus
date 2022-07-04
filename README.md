@@ -1,5 +1,5 @@
 
-[ Clique [aqui](https://tinyurl.com/iptTD2022) para acessar o site do LABirintus ]
+> Clique [aqui](https://tinyurl.com/iptTD2022) para acessar o site do LABirintus
 
 # Diário de Bordo - Equipe LABirintos
 
@@ -94,7 +94,7 @@ Clique [aqui](https://github.com/Github2diogo/labirintus/blob/main/js/principal.
 
 <h2> Custos </h2>
 
-120 h da equipe.
+Foram necessárias 120 horas de trabalho da equipe.
 
 <h2>Validação</h2>
 
